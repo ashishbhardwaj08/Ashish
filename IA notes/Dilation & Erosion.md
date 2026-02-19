@@ -159,4 +159,4 @@ cv2.destroyAllWindows()
 
 
 
-# Next: [[Image Analysis Notes/Opening]]
+# Next: [[Opening]]
