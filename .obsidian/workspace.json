@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IA notes/Edge detectiom.md",
+                "file": "IA notes/Edge detection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Edge detectiom"
+              "title": "Edge detection"
             }
           }
         ]
@@ -194,10 +194,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "daee1f27f56ebd5a",
+  "active": "57cea44965b17e30",
   "lastOpenFiles": [
     "IA notes/Boundary detection.md",
-    "IA notes/Edge detectiom.md",
+    "IA notes/Edge detection.md",
     "IA notes/Hit-or-Miss.md",
     "IA notes/Opening.md",
     "IA notes/Hit or Miss.md",
