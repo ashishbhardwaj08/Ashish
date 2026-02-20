@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2d532fe5639243cb",
+        "id": "6947eca43cb8c51e",
         "type": "tabs",
         "children": [
           {
-            "id": "57cea44965b17e30",
+            "id": "c148c0e1e5d33325",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "IA notes/Closing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Closing"
             }
           }
         ]
@@ -190,14 +194,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "57cea44965b17e30",
+  "active": "c148c0e1e5d33325",
   "lastOpenFiles": [
+    "IA notes/Image Analysis.md",
+    "IA notes/Boundary extraction.md",
     "IA notes/Closing.md",
+    "IA notes/Convex hull.md",
+    "IA notes/Region filling.md",
     "IA notes/Dilation & Erosion.md",
     "IA notes/Opening.md",
     "IA notes/Hit-or-Miss transformation.md",
-    "IA notes/Image Analysis.md",
-    "IA notes/Region filling.md",
     "IA notes/Edge detection.md",
     "IA notes/tree.md",
     "IA notes/Boundary detection.md",

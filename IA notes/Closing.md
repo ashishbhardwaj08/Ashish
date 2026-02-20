@@ -139,7 +139,6 @@ closed = cv2.erode(dilated, kernel, iterations=1)
 
 
 Imagine filling cracks in a wall:
-
 - Dilation = pouring plaster
 - Erosion = scraping excess
 - Closing = wall becomes smooth and solid

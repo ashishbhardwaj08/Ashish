@@ -3,6 +3,7 @@ Status:
 Tags: [[Image Analysis]]
 # Definition
 Region filling means:
+
 > **Filling holes or empty regions inside an object** in a binary image.
 
 In simple words:  
@@ -94,10 +95,6 @@ filled = binary | floodfill_inv
 cv2.imshow("Original", binary)
 cv2.imshow("Region Filled", filled)
 cv2.waitKey(0)
-#
-#
-#
-#
 ```
 
 # Merits | Demerits | Constraints
