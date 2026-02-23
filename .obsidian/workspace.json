@@ -211,8 +211,9 @@
   },
   "active": "d1df18da3bcd4283",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Image Analysis.md",
     "README.md",
+    "conflict-files-obsidian-git.md",
     "Unit1/Thinning.md",
     "Instructions.txt",
     "Unit1/Grayscale Morphology.md",
@@ -224,7 +225,6 @@
     "Unit1/Region filling.md",
     "Unit1/Boundary extraction.md",
     "Unit1/Hit-or-Miss transformation.md",
-    "Image Analysis.md",
     "Unit1/Closing.md",
     "Unit1/Opening.md",
     "Unit1/Dilation & Erosion.md"

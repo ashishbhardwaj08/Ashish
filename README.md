@@ -1,5 +1,5 @@
 
-## 📌 Setup Instructions
+## Setup Instructions
 
 1. Download notes
    From Google Classroom (https://classroom.google.com/c/ODQ1MDYwNTQ4ODIx?cjc=ujbea6uf) (CODE - ujbea6uf)
@@ -7,10 +7,10 @@
    or Github Repository
    → download & extract folder.
 
-3. Install Obsidian
+2. Install Obsidian
    (https://obsidian.md) → install & open.
 
-4. Open notes in Obsidian
+3. Open notes in Obsidian
    Obsidian → Open folder as vault → select downloaded notes folder.
 
 ---
