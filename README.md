@@ -4,12 +4,13 @@
 1. Download notes
    From Google Classroom (https://classroom.google.com/c/ODQ1MDYwNTQ4ODIx?cjc=ujbea6uf) (CODE - ujbea6uf)
    or Google Drive (https://drive.google.com/drive/folders/1C-v4WoGySgS3zsRFU0_NCVYSqFDzURJl?usp=sharing)
+   or github repo 
    → download & extract folder.
 
-2. Install Obsidian
+3. Install Obsidian
    (https://obsidian.md) → install & open.
 
-3. Open notes in Obsidian
+4. Open notes in Obsidian
    Obsidian → Open folder as vault → select downloaded notes folder.
 
 ---
