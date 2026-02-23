@@ -1,6 +1,5 @@
 2026-02-19  13:22
-Status: 
-Tags: 
+Tags: [[Image Analysis]]
 # Definition
 Boundary extraction means:
 
@@ -116,12 +115,4 @@ Gives thick boundary (both sides).
 | Complexity | Low                                  |
 
 
-
-
-
-
-
-
-
-
-# Next: [[]]
+# Next: [[Region filling]]

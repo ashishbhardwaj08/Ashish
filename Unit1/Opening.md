@@ -1,5 +1,4 @@
 2026-02-17  18:44
-Status: 
 Tags:  [[Image Analysis]]
 # Definition
 **Opening** is a morphological operation defined as:
@@ -167,8 +166,3 @@ So:
 
 
 # Next: [[Closing]]
-
-
-## Details
-
-# notes

@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "00acad91dc8b77ea",
+    "id": "a120cc4d66bfbde0",
     "type": "split",
     "children": [
       {
-        "id": "6947eca43cb8c51e",
+        "id": "2284fdd07d8f0a18",
         "type": "tabs",
         "children": [
           {
-            "id": "c148c0e1e5d33325",
+            "id": "961ca6c39b1dc21c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IA notes/Connected Components.md",
+                "file": "Unit1/Thinning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Connected Components"
+              "title": "Thinning"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "fa796b46278e618c",
+    "id": "e1be0654c85cbd5d",
     "type": "split",
     "children": [
       {
-        "id": "a3ad32154b67c183",
+        "id": "89ad23f4895a1dab",
         "type": "tabs",
         "children": [
           {
-            "id": "daee1f27f56ebd5a",
+            "id": "1da84ebc218758df",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "cbe145ac039e9780",
+            "id": "5ec48a96dc332cfd",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "88ecddd8b3c8ae9c",
+            "id": "441231ef72efa6da",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "ed485cdc39e68d32",
+    "id": "a6be2bca23c60bfa",
     "type": "split",
     "children": [
       {
-        "id": "809fe5628cd943f8",
+        "id": "d7375a17bb778170",
         "type": "tabs",
         "children": [
           {
-            "id": "0636a31e60470a25",
+            "id": "32b4010c50a3de3f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IA notes/Opening.md",
+                "file": "Unit1/Thinning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Opening"
+              "title": "Backlinks for Thinning"
             }
           },
           {
-            "id": "0b7bcc3b28eec9db",
+            "id": "5e7a8d09cafd848d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IA notes/Opening.md",
+                "file": "Unit1/Thinning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Opening"
+              "title": "Outgoing links from Thinning"
             }
           },
           {
-            "id": "cf586a055b070fbf",
+            "id": "42f111270b80c03d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +137,7 @@
             }
           },
           {
-            "id": "5b781cf659c8445b",
+            "id": "f92599f4a391851b",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,22 +151,22 @@
             }
           },
           {
-            "id": "9915989a348af8d0",
+            "id": "060e811cfc5ae2bf",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "IA notes/Opening.md",
+                "file": "Unit1/Thinning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Opening"
+              "title": "Outline of Thinning"
             }
           },
           {
-            "id": "39350856053e8d12",
+            "id": "1f6d67127a2c548c",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -184,31 +184,31 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c148c0e1e5d33325",
+  "active": "961ca6c39b1dc21c",
   "lastOpenFiles": [
-    "IA notes/Convex hull.md",
-    "IA notes/Connected Components.md",
-    "IA notes/Image Analysis.md",
-    "IA notes/Dilation & Erosion.md",
-    "IA notes/Edge detection.md",
-    "IA notes/Hit-or-Miss transformation.md",
-    "IA notes/Opening.md",
-    "IA notes/Region filling.md",
-    "IA notes/Closing.md",
-    "IA notes/Boundary extraction.md",
-    "IA notes/tree.md",
-    "IA notes/Boundary detection.md",
-    "IA notes/Hit-or-Miss.md",
-    "IA notes/Hit or Miss.md"
+    "Unit1/Grayscale Morphology.md",
+    "Unit1/Pruning.md",
+    "Unit1/Skeletons.md",
+    "Unit1/Thickening.md",
+    "Unit1/Thinning.md",
+    "Unit1/Convex hull.md",
+    "Unit1/Connected Components.md",
+    "Unit1/Region filling.md",
+    "Unit1/Boundary extraction.md",
+    "Unit1/Hit-or-Miss transformation.md",
+    "Image Analysis.md",
+    "Unit1/Closing.md",
+    "Unit1/Opening.md",
+    "Unit1/Dilation & Erosion.md"
   ]
 }

@@ -1,5 +1,4 @@
 2026-02-19  16:10
-Status: 
 Tags: [[Image Analysis]]
 # Definition
 
@@ -200,5 +199,4 @@ Uses multiple rotated hit-or-miss kernels
 
 
 
-
-# Next: [[]]
+# Next: [[Boundary extraction]]

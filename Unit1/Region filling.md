@@ -1,5 +1,4 @@
 2026-02-19  16:52
-Status: 
 Tags: [[Image Analysis]]
 # Definition
 Region filling means:
@@ -124,4 +123,4 @@ cv2.waitKey(0)
 
 
 
-# Next: [[Convex hull]]
+# Next: [[Connected Components]]

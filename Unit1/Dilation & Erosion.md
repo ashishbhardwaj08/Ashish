@@ -1,5 +1,4 @@
  2026-02-17  18:24
-Status: 
 Tags: [[Image Analysis]]
 # Definition
 
@@ -146,16 +145,6 @@ cv2.destroyAllWindows()
 | Noise      | Fills holes | Removes noise |
 | Pixel rule | ANY = 1     | ALL = 1       |
 | Shape      | Grows       | Reduces       |
-
-
-
-
-
-
-
-
-
-
 
 
 

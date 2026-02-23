@@ -1,5 +1,4 @@
 2026-02-17  19:00
-Status: 
 Tags:  [[Image Analysis]]
 # Definition
 **Closing** is a morphological operation defined as:
@@ -16,9 +15,7 @@ Tags:  [[Image Analysis]]
 
 Think of it as:
 
-> First you **expand** the object (dilation),  
-> then you **shrink it back** (erosion),  
-> but the **holes and gaps get sealed**.
+> First you **expand** the object (dilation), then you **shrink it back** (erosion), but the **holes and gaps get sealed**.
 
 ---
 # Mathematical Formula
@@ -139,6 +136,7 @@ closed = cv2.erode(dilated, kernel, iterations=1)
 
 
 Imagine filling cracks in a wall:
+
 - Dilation = pouring plaster
 - Erosion = scraping excess
 - Closing = wall becomes smooth and solid
@@ -146,10 +144,4 @@ Imagine filling cracks in a wall:
 
 
 
-
-
-
-
-
-
-# Next: [[Hit-or-Miss transformation]] 
+# Next: [[Hit-or-Miss transformation]]
