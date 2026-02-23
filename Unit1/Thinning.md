@@ -12,7 +12,6 @@ It keeps:
 - connectivity
 But removes:
 - Extra thickness
-
 ---
 Original:
 
