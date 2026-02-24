@@ -11,10 +11,14 @@
             "id": "84e5dc2cb81e1dbe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Image Analysis Notes/Index/_Unit -2.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "_Unit -2"
             }
           }
         ]
@@ -190,8 +194,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1da84ebc218758df",
+  "active": "84e5dc2cb81e1dbe",
   "lastOpenFiles": [
+    "Image Analysis Notes/Unit 2/Detection of discontinuities.md",
+    "Image Analysis Notes/Index/_Unit -2.md",
+    "Image Analysis Notes/Index/_Unit -1.md",
+    "Image Analysis Notes/Unit 2/Gradient Operators.md",
+    "Image Analysis Notes/Index/_Unit -0.md",
+    "Image Analysis Notes/Index/_Image Analysis.md",
     "Unit0/Threshold function.md",
     "Unit0/Operators & Convolution.md",
     "Unit0 1/Binary images.md",
@@ -214,11 +224,6 @@
     "Instructions.txt",
     "Unit1/Grayscale Morphology.md",
     "Unit1/Pruning.md",
-    "Unit1/Skeletons.md",
-    "Unit1/Thickening.md",
-    "Unit1/Convex hull.md",
-    "Unit1/Connected Components.md",
-    "Unit1/Region filling.md",
-    "Unit1/Hit-or-Miss transformation.md"
+    "Unit1/Skeletons.md"
   ]
 }

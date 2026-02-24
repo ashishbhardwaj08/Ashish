@@ -1,6 +1,6 @@
 # Image Segmentation
 
-- [[Detection of discontinuities – Point detection, Line detection, Edge detection]] –
+- [[Detection of discontinuities]] – Point detection, Line detection, Edge detection
 - [[Gradient operators]]
 - [[Compass operators]]
 - [[Laplace operators]]

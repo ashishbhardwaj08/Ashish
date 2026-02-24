@@ -1,5 +1,6 @@
 Tags:  [[_Unit -2]]
 
+> Point detection, Line detection, Edge detection
 # WHAT IS A DISCONTINUITY?
 
 In image processing, a **discontinuity** means:
