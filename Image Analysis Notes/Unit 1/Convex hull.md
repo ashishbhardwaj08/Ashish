@@ -1,0 +1,113 @@
+2026-02-19  17:08
+Tags:  [[_Unit -1]]
+# Definition
+The **convex hull** of an object is:
+
+> The **smallest convex shape** that completely encloses the object.
+
+# Basic Idea
+
+Think of it like:  
+_Stretching a rubber band around the object_ — the band forms the convex hull.
+
+Example idea:
+
+Object:
+
+```
+   ██
+ ███  █
+   ██
+```
+
+Convex Hull:
+
+```
+ ██████
+ ██████
+ ██████
+```
+
+It removes inward dents (concavities).
+# Main Concept
+
+
+Convex hull removes **concave regions** of an object and makes it **fully convex**.
+
+Used in:
+
+- shape analysis
+- object recognition
+- measuring area/perimeter
+- hand gesture recognition
+# Mathematical Formula
+The convex hull (H) of a set of points (S):
+
+$H = \bigcap \text{ all convex sets containing } S$  
+
+
+In morphology, it is computed using:
+
+- **Hit-or-Miss transform**
+- with rotated structuring elements
+- iteratively until shape becomes convex
+
+
+
+# Working
+1. Convert image to binary
+2. Extract contours (object boundaries)
+3. Compute convex hull of each contour
+4. Draw the hull shape
+5. Output = convex object
+
+# Code
+OpenCV computes convex hull using contours:
+```python
+import cv2
+import numpy as np
+
+img = cv2.imread("binary.png", 0)
+_, binary = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY)
+
+# Find contours
+contours, _ = cv2.findContours(binary, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+
+# Create empty image
+hull_img = np.zeros_like(binary)
+
+for cnt in contours:
+    hull = cv2.convexHull(cnt)
+    cv2.drawContours(hull_img, [hull], -1, 255, -1)
+
+cv2.imshow("Original", binary)
+cv2.imshow("Convex Hull", hull_img)
+cv2.waitKey(0)
+```
+# Merits | Demerits | Constraints
+
+### Applications
+
+- Shape analysis  
+- Hand gesture recognition  
+- Medical image segmentation  
+- Object bounding  
+- Feature extraction
+
+
+# Summary
+
+Before:
+- dents
+- holes    
+- irregular edges
+
+After:
+- smooth
+- convex    
+- no inward curves
+
+
+
+
+# Next: [[Thinning]]
