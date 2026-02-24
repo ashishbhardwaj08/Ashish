@@ -14,12 +14,12 @@ Download notes folder from:
    Obsidian → Open folder as vault → select downloaded notes folder.
 ---
 
-## (Optional) Use GitHub instead of Drive
-1. Clone or download from GitHub repo: https://github.com/ashishbhardwaj08/Ashish.git
+## (Optional) Use Git plugin to auto update
+1. Clone from GitHub repo: https://github.com/ashishbhardwaj08/Ashish.git
 
 2. Open repo folder as vault in Obsidian.
-
-(Optional) Auto-update notes
+   
+Auto-update notes:
 
 Obsidian → Settings → Community Plugins → install "Obsidian Git" → use pull to update.
 
