@@ -1,9 +1,10 @@
 
-## Setup Instructions
+##  Setup Instructions
 
-1. Download notes from: 
+1.* Don’t download files individually *
+Download notes folder from:
     Google Drive (https://drive.google.com/drive/folders/1C-v4WoGySgS3zsRFU0_NCVYSqFDzURJl?usp=sharing)
-   or Github Repository  https://github.com/ashishbhardwaj08/Ashish.git
+   or GitHub https://github.com/ashishbhardwaj08/Ashish.git
    → download & extract folder.
 
 2. Install Obsidian
@@ -11,7 +12,6 @@
 
 3. Open notes in Obsidian
    Obsidian → Open folder as vault → select downloaded notes folder.
-
 ---
 
 ## (Optional) Use GitHub instead of Drive
@@ -24,3 +24,4 @@
 Obsidian → Settings → Community Plugins → install "Obsidian Git" → use pull to update.
 
 ---
+
