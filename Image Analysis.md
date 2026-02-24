@@ -29,16 +29,37 @@
 - [[Template matching]]
 - [[Texture segmentation]]
 ## Unit - 3: Boundary Extraction and Representation
-Connectivity, Contour following, edge linking, Hough transform, chain code, fitting line segments, B-spline representation, Fourier descriptors, shape number, and autoregressive model.
+- Connectivity
+- Contour following
+- Edge linking
+- Hough transform
+- Chain code
+- Fitting line segments
+- B-spline representation
+- Fourier descriptors
+- Shape number
+- Autoregressive model.
 ## Unit - 4: Region Representation
-Region Representation: Run-length codes, quad-trees, topological descriptor, texture and projections.
+- Run-length codes
+- Quad-trees
+- Topological descriptor
+- Texture and projections.
 ## Unit - 5: Moment Representation
-Moment representation theorem, moment matching, orthogonal moments, moment invariants, applications of moment invariants.
+- Moment representation theorem
+- Moment matching
+- Orthogonal moments,
+- Moment invariants
+- Applications of moment invariants.
 ## Unit - 6: Shape feature
-Geometric features, moment-based features.
+- Geometric features
+- Moment-based features.
 ## Unit - 7: Texture
-Statistical approaches, structural approaches, and other approaches.
+- Statistical approaches 
+- Structural approaches and other approaches.
 ## Unit - 8: Scene matching
-Image subtraction, template matching and area correlation, and matched filtering.
+- Image subtraction 
+- Template matching and area correlation
+- Matched filtering.
 ## Unit - 9: Object recognition and image understanding
-Patterns and pattern classes, decision theoretic and structural methods.
+Patterns and pattern classes
+Decision theoretic and structural methods.
