@@ -3,7 +3,7 @@
 
 1.* Don’t download files individually *
 Download notes folder from:
-    Google Drive (https://drive.google.com/drive/folders/1C-v4WoGySgS3zsRFU0_NCVYSqFDzURJl?usp=sharing)
+    Google Drive (https://drive.google.com/drive/folders/1X9Qop6fol7JRM9xqOwdogK2axsJz76mB?usp=drive_link)
    or GitHub https://github.com/ashishbhardwaj08/Ashish.git
    → download & extract folder.
 
