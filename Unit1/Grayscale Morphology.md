@@ -1,7 +1,6 @@
 Tags: [[Image Analysis]]
 
----
-# Main Idea
+# ==Grayscale Morphology==
 
 Until now, all operations were mainly for **binary images (0 and 255)**.
 Now we extend morphology to **grayscale images (0–255 intensity values)**.
@@ -172,3 +171,8 @@ cv2.waitKey(0)
 - Medical image processing  
 - Industrial inspection
 
+---
+---
+
+
+# ==END OF UNIT - 1==

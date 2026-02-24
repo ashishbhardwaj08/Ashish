@@ -10,8 +10,10 @@ It keeps:
 - shape
 - topology
 - connectivity
+
 But removes:
 - Extra thickness
+
 ---
 Original:
 

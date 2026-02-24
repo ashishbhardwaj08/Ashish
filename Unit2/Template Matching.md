@@ -1,0 +1,171 @@
+# Template Matching **(Segmentation by Pattern Matching)**
+
+Template matching is a **matching-based segmentation technique**.
+Instead of detecting edges or regions, we:
+
+> Search for a known pattern inside an image.
+
+---
+# Basic Idea
+
+Given:
+- Large image → ( I(x,y) )
+- Small template → ( T(x,y) )
+
+Goal:
+
+> Find where template exists in image.
+
+Mathematically:
+We slide template over image and compute similarity.
+
+---
+# Concept (Sliding Window)
+
+For each position:
+1. Place template on image.
+2. Compute similarity score.
+3. Store score.
+4. Find maximum match.
+---
+
+# Similarity Measures
+
+Common methods:
+### Cross-Correlation
+ 
+$$R(x,y) = \sum I(x+i, y+j) \cdot T(i,j)  $$
+
+Higher value → better match.
+
+---
+
+### Normalized Cross-Correlation (Better)
+ 
+$$R = \frac{\sum (I - \bar{I})(T - \bar{T})}  
+{\sqrt{\sum (I - \bar{I})^2 \sum (T - \bar{T})^2}}  $$
+
+Range:
+$$ -1 \le R \le 1 $$ 
+1 → perfect match  
+0 → no match
+
+---
+
+### Sum of Squared Differences (SSD)
+  $$SSD = \sum (I - T)^2  $$
+Smaller value → better match.
+
+---
+
+#  OpenCV Template Matching Methods
+
+OpenCV supports:
+- cv2.TM_CCORR
+- cv2.TM_CCOEFF
+- cv2.TM_SQDIFF
+- Normalized versions
+---
+
+# Python Code – Template Matching
+
+```python
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Read image and template
+img = cv2.imread("image.jpg")
+template = cv2.imread("template.jpg")
+
+img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+template_gray = cv2.cvtColor(template, cv2.COLOR_BGR2GRAY)
+
+# Template matching
+result = cv2.matchTemplate(img_gray, 
+                           template_gray, 
+                           cv2.TM_CCOEFF_NORMED)
+
+# Find best match location
+min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(result)
+
+h, w = template_gray.shape
+
+top_left = max_loc
+bottom_right = (top_left[0] + w, top_left[1] + h)
+
+# Draw rectangle
+matched = img.copy()
+cv2.rectangle(matched, top_left, bottom_right, (0,255,0), 2)
+
+# Display
+plt.figure(figsize=(12,4))
+
+plt.subplot(1,3,1)
+plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
+plt.title("Original")
+plt.axis("off")
+
+plt.subplot(1,3,2)
+plt.imshow(result, cmap='gray')
+plt.title("Matching Score Map")
+plt.axis("off")
+
+plt.subplot(1,3,3)
+plt.imshow(cv2.cvtColor(matched, cv2.COLOR_BGR2RGB))
+plt.title("Detected Template")
+plt.axis("off")
+
+plt.show()
+```
+
+---
+
+# What Output Shows
+- Middle image → similarity map
+- Bright region → high match
+- Last image → rectangle showing detected object
+
+---
+
+# Applications
+
+- Face detection (basic form)  
+- Object detection  
+- Industrial inspection  
+- Logo detection
+
+---
+
+# Limitations
+
+- Sensitive to scale change  
+- Sensitive to rotation  
+- Sensitive to illumination  
+- Computationally heavy
+
+---
+
+# Use Cases
+
+- When object shape is fixed  
+- When scale is known  
+- When background simple
+
+Not good for:
+
+- Real-world complex detection
+
+---
+
+# Important Points
+
+- Based on sliding window.
+- Uses correlation or SSD.
+- Normalized methods better.
+- Gives similarity map.
+- Not rotation or scale invariant.
+
+---
+
+# Next: [[Texture segmentation]]

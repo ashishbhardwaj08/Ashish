@@ -1,7 +1,33 @@
 ## Unit -1 : Morphological Image Processing
-Basic concept of set theory, logic operation involving binary images, [[Dilation & Erosion]], [[Opening]] and [[Closing]], and [[Hit-or-Miss transformation]]. Some basic morphological algorithms – [[Boundary extraction]], [[Region filling]], Extraction of [[Connected Components]], [[Convex hull]], [[Thinning]], [[Thickening]], [[Skeletons]], and [[Pruning]]. Extensions to [[Grayscale Morphology]] – Dilation, Erosion, Opening and Closing , and Application of Grayscale Morphology.
+- Basic concept of set theory
+- Logic operation involving binary images
+- [[Dilation & Erosion]]
+- [[Opening]] and [[Closing]]
+- [[Hit-or-Miss transformation]]
+- Some basic morphological algorithms –
+- [[Boundary extraction]],
+- [[Region filling]]
+- Extraction of [[Connected Components]]
+- [[Convex hull]]
+- [[Thinning]]
+- [[Thickening]]
+- [[Skeletons]]
+- [[Pruning]].
+- Extensions to [[Grayscale Morphology]] – Dilation, Erosion, Opening and Closing , and Application of Grayscale Morphology.
 ## Unit - 2:  Image Segmentation
-Detection of discontinuities – Point detection, Line detection, Edge detection – Gradient operators, Compass operators, Laplace operators and Zero crossing, Stochastic gradients, Performance of edge detector operators. Amplitude thresholding or Window slicing, Component labeling, Boundary based approaches, Region-based approaches and Clustering, Template matching, and Texture segmentation.
+- [[Detection of discontinuities – Point detection, Line detection, Edge detection]] –
+- [[Gradient operators]]
+- [[Compass operators]]
+- [[Laplace operators]]
+- [[Zero crossing]]
+- [[Stochastic gradients]]
+- [[Performance of edge detector operators]].
+- [[Amplitude thresholding or Window slicing]] 
+- [[Component labeling]]
+- [[Boundary based approaches]]
+- [[Region-based approaches and Clustering]]
+- [[Template matching]]
+- [[Texture segmentation]]
 ## Unit - 3: Boundary Extraction and Representation
 Connectivity, Contour following, edge linking, Hough transform, chain code, fitting line segments, B-spline representation, Fourier descriptors, shape number, and autoregressive model.
 ## Unit - 4: Region Representation
