@@ -1,10 +1,9 @@
 
 ## Setup Instructions
 
-1. Download notes
-   From Google Classroom (https://classroom.google.com/c/ODQ1MDYwNTQ4ODIx?cjc=ujbea6uf) (CODE - ujbea6uf)
-   or Google Drive (https://drive.google.com/drive/folders/1C-v4WoGySgS3zsRFU0_NCVYSqFDzURJl?usp=sharing)
-   or Github Repository
+1. Download notes from: 
+    Google Drive (https://drive.google.com/drive/folders/1C-v4WoGySgS3zsRFU0_NCVYSqFDzURJl?usp=sharing)
+   or Github Repository  https://github.com/ashishbhardwaj08/Ashish.git
    → download & extract folder.
 
 2. Install Obsidian

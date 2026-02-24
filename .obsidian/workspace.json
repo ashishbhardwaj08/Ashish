@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Analysis.md",
+                "file": "Unit0/Binary images.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Image Analysis"
+              "title": "Binary images"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,11 +208,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d1df18da3bcd4283",
+  "active": "961ca6c39b1dc21c",
   "lastOpenFiles": [
-    "Unit1/Boundary extraction.md",
+    "Untitled.md",
     "README.md",
+    "Unit0/Binary images.md",
+    "Unit0/Kernel.md",
+    "Unit1/Closing.md",
+    "Unit0",
+    "Unit1/Opening.md",
+    "Unit1/Dilation & Erosion.md",
     "Image Analysis.md",
+    "Unit1/Boundary extraction.md",
     "conflict-files-obsidian-git.md",
     "Unit1/Thinning.md",
     "Instructions.txt",
@@ -224,9 +230,6 @@
     "Unit1/Convex hull.md",
     "Unit1/Connected Components.md",
     "Unit1/Region filling.md",
-    "Unit1/Hit-or-Miss transformation.md",
-    "Unit1/Closing.md",
-    "Unit1/Opening.md",
-    "Unit1/Dilation & Erosion.md"
+    "Unit1/Hit-or-Miss transformation.md"
   ]
 }
