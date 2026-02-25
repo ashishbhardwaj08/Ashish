@@ -1,0 +1,104 @@
+## Color Schemes (Color Models)
+
+A **color model** is a system used to represent colors using numerical values.
+
+---
+
+## 1. Additive Color Model – RGB
+
+**RGB (Red, Green, Blue)** is an **additive** color model.
+
+- Colors are formed by **adding light**  
+-  Used in **monitors, TVs, cameras**  
+- Black = (0,0,0)  
+- White = (255,255,255)
+- Yellow = (255,255,0)
+
+Color = R + G + B  
+
+Mixing:  
+• R + G = Yellow  
+• G + B = Cyan  
+• R + B = Magenta
+`This is used to represent light based color mixture because mixing all colours results in white color`
+
+---
+
+## Subtractive Color Model – CMY / CMYK
+
+**CMY (Cyan, Magenta, Yellow)** is a **subtractive** color model.
+
+• Colors are formed by **absorbing (subtracting) light**  
+• Used in **printing**  
+• White = no ink  
+• Black = all inks combined
+
+
+$$C = 1 - R,\  M = 1 - G,\ Y = 1 - B  $$
+
+**CMYK** adds **K (Black)** for better dark tones and ink saving.
+`This is used to represent real life color mixture because mixing all colours results in black color`
+
+---
+
+## HSV Color Model
+
+**HSV = Hue, Saturation, Value**
+
+• Hue → color type (0°–360°)  
+• Saturation → purity of color  
+• Value → brightness
+
+Used in:  
+• Image processing  
+• Color detection  
+• Human color perception
+
+Separates:  
+- color (Hue)  
+- intensity (Value)
+
+---
+
+## HSI Color Model
+
+**HSI = Hue, Saturation, Intensity**
+
+• Hue → dominant wavelength  
+• Saturation → amount of white mixed  
+• Intensity → overall brightness
+
+Closer to **human visual perception** than RGB.  
+Useful for:  
+• Image enhancement  
+• Color-based segmentation
+
+---
+
+## Color Calibration
+
+**Color calibration** is the process of adjusting a device so that its color output matches a standard reference.
+`All devices needs to calibrated so that 255 intensity of one device matches 255 of other because there needs to be a reference as there is no such thing like "255 = maximum red"`
+Purpose:  
+• Maintain color consistency  
+• Reduce device-dependent errors  
+• Match camera, monitor, and printer colors
+
+Done using:  
+• Color charts  
+• Reference white/black  
+• Gamma correction
+
+---
+---
+
+## Summary
+
+• RGB → additive model (display devices)  
+• CMY → subtractive model (printing)  
+• HSV/HSI → perceptual models  
+• Calibration → corrects device color errors  
+• Conversion → changes color representation  
+• HSV & HSI separate color and intensity
+
+---

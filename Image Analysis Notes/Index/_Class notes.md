@@ -1,0 +1,11 @@
+# Introduction
+- [[Non linear graph]]
+- [[Co-ordinate system]]
+- [[Frequency]]
+- [[Fourier Transform]]
+- [[Image as 2D function]]
+- [[Block Effect]]
+- [[Phase & Resolution]]
+- [[Optical vs digital zoom]]
+- [[Color Schemas]]
+- 

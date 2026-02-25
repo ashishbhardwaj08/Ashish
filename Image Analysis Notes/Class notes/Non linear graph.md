@@ -1,0 +1,133 @@
+
+> Even though pixel values go from **0 to 255**, the relationship between  
+> **pixel value ↔ brightness (or intensity)** is **NOT truly linear**.
+---
+# What does “0–255” actually mean?
+
+In an 8-bit image:  
+• 0 = black  
+• 255 = white  
+• values in between = gray levels
+
+In an colored images:  
+• 0 = zero color intensity 
+• 255 = full color intensity  (Ex- In RGB (255,0,0) = Max. Red possible)
+• values in between = different intensity of selected color
+
+
+So we might assume:  
+$$\text{Brightness} \propto \text{Pixel Value}  $$
+
+i.e.  
+pixel 50 is half as bright as pixel 100  
+pixel 100 is half as bright as pixel 200
+
+**This assumption is WRONG in practice.**
+
+# Why it is not linear: 
+---
+
+## Human eye response is non-linear
+
+Human vision follows a **logarithmic-like response**, not linear.
+
+If light intensity doubles:  
+the eye does NOT feel it as “twice as bright”.
+
+So:  
+$$\text{Perceived brightness} \neq \text{Physical light intensity}  
+$$
+Hence, equal steps in pixel values (like +10)  
+do **not** look like equal steps in brightness.
+
+Graphically:
+
+```
+Perceived brightness
+↑
+|         .
+|      .
+|   .
+| .
+|________________→ pixel value (0–255)
+```
+
+This curve is **non-linear**.
+
+---
+
+## Camera sensors are non-linear
+
+Camera sensor output is not linear with light either:
+
+$$\text{Sensor output} = (\text{Light intensity})^{\gamma} $$ 
+where γ (gamma) ≈ 2.2
+
+So actual mapping is:
+$$\text{Pixel} = (\text{Light})^{1/\gamma}  $$
+
+This creates a **curved relationship** instead of straight line.
+
+---
+
+## Gamma correction is applied
+
+Images are stored with **gamma encoding**:
+$$I_{stored} = I_{real}^{1/\gamma}  $$
+
+Typical γ = 2.2
+
+So stored pixel values are **compressed at high intensities** and  
+**expanded at low intensities**.
+
+That means:
+
+• Dark region → more resolution  
+• Bright region → less resolution
+
+Which is **not linear spacing**.
+
+---
+
+# What would linear look like?
+
+A truly linear mapping would be:
+$$I = k \times x  $$
+
+Graph:
+
+```
+Brightness
+↑
+|        /
+|      /
+|    /
+|  /
+|/____________→ Pixel value (0–255)
+```
+
+But real images behave like:
+
+```
+Brightness
+↑
+|        ___
+|     __
+|   _
+| _
+|________________→ Pixel value
+```
+
+(curved, gamma-like)
+
+---
+
+# Summary
+
+Even though pixel values are stored as:
+$$0,1,2,\dots,255$$
+The relationship is:
+$$\text{Brightness} = (\text{Pixel})^{\gamma} $$ 
+NOT:  
+$$\text{Brightness} = \text{Pixel}  $$
+So the **0–255 graph is curved, not straight**.

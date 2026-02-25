@@ -1,0 +1,102 @@
+# We work in fourth quadrant
+
+In **image processing (OpenCV / NumPy)** we effectively work in the **fourth quadrant** of the Cartesian system.  
+This is because the **image coordinate system is different from the mathematical one**.
+
+---
+# Image Coordinate System (used by OpenCV)
+
+In images:
+
+```
+(0,0) ─────────→ x (columns)
+  |
+  |
+  |
+  ↓
+  y (rows)
+```
+
+• Origin **(0,0)** is at the **top-left corner**  
+• **x increases to the right** (same as maths)  
+• **y increases downward** (opposite of maths)
+
+So the coordinate plane looks like:
+
+```
+   (0,0)
+     +────────→ x
+     |
+     |
+     |
+     ↓ y
+```
+
+This matches the **fourth quadrant** of the mathematical coordinate system.
+
+In images:  
+• x is positive to the right  
+• y is positive downward
+
+So relative to the standard math axis, **image y-axis is inverted**.
+
+Hence we say:
+
+> 📌 **Image processing works in the 4th quadrant coordinate system.**
+
+---
+
+# Pixel Access Example (OpenCV / NumPy)
+
+```python
+pixel = img[y, x]
+```
+
+Not:
+
+```python
+img[x, y]
+```
+
+Because:  
+• first index = row = y  
+• second index = column = x
+
+So pixel at (x=50, y=100) is accessed as:
+
+```python
+img[100, 50]
+```
+
+---
+
+# Practical Meaning
+
+If you move:
+
+• right → x increases  
+• down → y increases
+
+So drawing a line from (0,0) to (100,100) goes **downward diagonally**, not upward.
+
+---
+
+Because images are stored as **matrices**:
+
+• First row = top row  
+• Last row = bottom row
+
+Matrix indexing starts from top-left:
+
+```python
+img[0,0]   # top-left pixel
+```
+
+Which naturally gives:  
+• row increases downward  
+• column increases rightward
+# Summary
+
+> In image processing, the origin is at the **top-left corner**,  
+> x increases to the right, y increases downward —  
+> so we effectively work in the **fourth quadrant** of the Cartesian plane.

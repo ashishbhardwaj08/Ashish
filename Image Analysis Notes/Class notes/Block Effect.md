@@ -1,0 +1,121 @@
+
+## Definition
+
+**Block effect** is a visual artifact that appears when an image is processed in **small independent blocks**, causing **visible boundaries between blocks**.
+
+It is most commonly seen in:  
+- JPEG compression  
+- Block-based Fourier / DCT processing  
+- Block-wise filtering
+
+---
+
+## Intuition
+
+Instead of processing the whole image:
+
+```
+Entire Image  →  Transform
+```
+
+We process:
+
+```
+Small blocks (8×8, 16×16) → Transform → Reconstruct
+```
+
+Each block is treated **independently**, so continuity between neighboring blocks is lost.
+
+Result:  
+- sudden changes at block boundaries  
+- square patterns visible  
+- “patchy” or “mosaic” look
+
+That is **block effect**.
+
+---
+
+## Why does block effect occur?
+
+Main reasons:
+
+1. **Quantization error**
+    - High-frequency components are heavily quantized (JPEG).
+2. **Independent block processing**
+    - No information shared between blocks.
+3. **Loss of high frequencies**
+    - Edges crossing blocks get broken.
+
+---
+
+## Example
+
+Original:
+
+```
+Smooth gradient
+```
+
+After block processing:
+
+```
+|____|____|____|
+|____|____|____|   ← visible block edges
+|____|____|____|
+```
+
+---
+
+## Where it is seen?
+
+| Area                | Reason                  |
+| ------------------- | ----------------------- |
+| JPEG compression    | Uses 8×8 DCT blocks     |
+| Video compression   | Block motion estimation |
+| FFT block filtering | Windowing effect        |
+| Image tiling        | Independent processing  |
+
+---
+
+## Mathematical View
+
+Each block:  
+$$f_b(x,y) \xrightarrow{DCT/FFT} F_b(u,v) $$
+
+Reconstruction:  
+$$\hat{f}_b(x,y) $$ 
+But:   
+$$\hat{f}_{b1} \neq \hat{f}_{b2}  $$
+So discontinuity occurs at borders.
+
+---
+
+# Disadvantages
+
+• Visual artifacts  
+• Loss of image continuity  
+• Distortion near edges  
+• Reduces subjective quality
+
+---
+
+## Reduction / Removal Methods
+
+- Overlapping blocks  
+- Windowing (Hamming, Hann)  
+- Post-processing smoothing  
+- Larger block size  
+- Wavelet transform (no blocks)
+
+---
+
+## Exam Points
+
+- Occurs due to block-based processing  
+- Caused by quantization + discontinuity  
+- Common in JPEG  
+- Appears as square patterns  
+- Reduced by overlapping/windowing
+
+---
+
