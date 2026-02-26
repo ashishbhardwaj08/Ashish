@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Analysis Notes/Index/_Unit -2.md",
+                "file": "Image Analysis Notes/Class notes/Co-ordinate system.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_Unit -2"
+              "title": "Co-ordinate system"
             }
           }
         ]
@@ -196,8 +196,8 @@
   },
   "active": "84e5dc2cb81e1dbe",
   "lastOpenFiles": [
-    "Image Analysis Notes/Unit 2/Detection of discontinuities.md",
     "Image Analysis Notes/Index/_Unit -2.md",
+    "Image Analysis Notes/Unit 2/Detection of discontinuities.md",
     "Image Analysis Notes/Index/_Unit -1.md",
     "Image Analysis Notes/Unit 2/Gradient Operators.md",
     "Image Analysis Notes/Index/_Unit -0.md",

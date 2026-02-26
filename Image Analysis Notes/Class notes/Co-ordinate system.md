@@ -42,7 +42,7 @@ So relative to the standard math axis, **image y-axis is inverted**.
 
 Hence we say:
 
-> 📌 **Image processing works in the 4th quadrant coordinate system.**
+>**Image processing works in the 4th quadrant coordinate system.**
 
 ---
 
