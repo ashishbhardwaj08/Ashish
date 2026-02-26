@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Analysis Notes/Class notes/Co-ordinate system.md",
+                "file": "Image Analysis Notes/Index/_Unit -0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Co-ordinate system"
+              "title": "_Unit -0"
             }
           }
         ]
@@ -196,6 +196,10 @@
   },
   "active": "84e5dc2cb81e1dbe",
   "lastOpenFiles": [
+    "Image Analysis Notes/Unit 0/Blur.md",
+    "Image Analysis Notes/Unit 0/Binary images.md",
+    "README.md",
+    "Image Analysis Notes/Class notes/Co-ordinate system.md",
     "Image Analysis Notes/Index/_Unit -2.md",
     "Image Analysis Notes/Unit 2/Detection of discontinuities.md",
     "Image Analysis Notes/Index/_Unit -1.md",
@@ -210,7 +214,6 @@
     "Unit0 1",
     "Unit2/Texture segmentation.md",
     "Texture Segmentation 2.md",
-    "README.md",
     "Unit0/Binary images.md",
     "Unit0/Kernel.md",
     "Unit1/Closing.md",
@@ -221,9 +224,6 @@
     "Unit1/Boundary extraction.md",
     "conflict-files-obsidian-git.md",
     "Unit1/Thinning.md",
-    "Instructions.txt",
-    "Unit1/Grayscale Morphology.md",
-    "Unit1/Pruning.md",
-    "Unit1/Skeletons.md"
+    "Instructions.txt"
   ]
 }
