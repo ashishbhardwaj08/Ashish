@@ -1,14 +1,12 @@
 
 > **Blur (Smoothing): Average Blur, Median Blur, and Gaussian Blur in Image Analysis using OpenCV**
 
-
 ---
-
 # Definition
 
 **Blurring** is an image processing operation used to:  
 - reduce noise  
- - reduce fine details  
+- reduce fine details  
 - smooth intensity variations
 
 It works by **replacing each pixel value with a value computed from its neighbors** using a kernel (window).

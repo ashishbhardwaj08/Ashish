@@ -63,11 +63,9 @@ Where:
 Single threshold value for whole image.
 
 ### 2. Adaptive Binary Image
-
 Threshold changes for each local region.
 
 ### 3. Inverted Binary Image
-
 Foreground becomes black, background white.
 
 ---
