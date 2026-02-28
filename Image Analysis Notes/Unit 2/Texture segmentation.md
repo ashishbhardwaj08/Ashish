@@ -42,7 +42,7 @@ Consider:
 Intensity thresholding cannot separate them.  
 Texture analysis can.
 
-# 🔷 Main Approaches for Texture Segmentation
+# Main Approaches for Texture Segmentation
 
 1. Statistical Methods
 2. Filter-Based Methods

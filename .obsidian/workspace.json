@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Analysis Notes/Unit 0/Image.md",
+                "file": "Image Analysis Notes/Unit 2/Laplace Operators.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Image"
+              "title": "Laplace Operators"
             }
           }
         ]
@@ -196,6 +196,9 @@
   },
   "active": "84e5dc2cb81e1dbe",
   "lastOpenFiles": [
+    "Image Analysis Notes/Unit 2/Zero crossing.md",
+    "Image Analysis Notes/Unit 2/Texture segmentation.md",
+    "Image Analysis Notes/Unit 0/Image.md",
     "Image Analysis Notes/Unit 0/Blur.md",
     "Image Analysis Notes/Unit 0/Binary images.md",
     "Image Analysis Notes/Index/_Unit -0.md",
@@ -221,9 +224,6 @@
     "Unit1/Opening.md",
     "Unit1/Dilation & Erosion.md",
     "Image Analysis.md",
-    "Unit1/Boundary extraction.md",
-    "conflict-files-obsidian-git.md",
-    "Unit1/Thinning.md",
     "Instructions.txt"
   ]
 }

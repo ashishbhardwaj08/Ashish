@@ -41,16 +41,12 @@ Edge is at **0 crossing point**.
 # Why Not Direct Laplacian?
 
 Direct Laplacian:
-
 - Very noisy
 - Detects many false edges
-
 So we use:
-
 # Laplacian of Gaussian (LoG)
 
 Steps:
-
 1. Apply Gaussian smoothing
 2. Apply Laplacian
 3. Detect zero crossings
