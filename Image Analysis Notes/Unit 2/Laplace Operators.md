@@ -175,3 +175,8 @@ plt.show()
 - Used in zero-crossing method (next topic).
 
 # Next: [[Zero crossing]]
+
+
+
+
+
