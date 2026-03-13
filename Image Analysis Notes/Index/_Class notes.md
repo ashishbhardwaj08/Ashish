@@ -8,4 +8,5 @@
 - [[Phase & Resolution]]
 - [[Optical vs digital zoom]]
 - [[Color Schemas]]
-- 
+-  [[Filter]]
+- [[Edges]]

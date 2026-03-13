@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Image Analysis Notes/Index/_Class notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "_Class notes"
             }
           }
         ],
@@ -211,20 +211,24 @@
   },
   "active": "635a1c091eda90ac",
   "lastOpenFiles": [
+    "Image Analysis Notes/Index/_Image Analysis.md",
+    "Image Analysis Notes/Index/_Unit -0.md",
+    "Image Analysis Notes/Index/_Class notes.md",
+    "Image Analysis Notes/Unit 0/Sharpening filter.md",
+    "Image Analysis Notes/Class notes/Edges.md",
+    "Image Analysis Notes/Class notes/Filter.md",
+    "README.md",
     "Image Analysis Notes/Unit 2/Laplace Operators.md",
     "Image Analysis Notes/Unit 2/Zero crossing.md",
     "Image Analysis Notes/Unit 2/Texture segmentation.md",
     "Image Analysis Notes/Unit 0/Image.md",
     "Image Analysis Notes/Unit 0/Blur.md",
     "Image Analysis Notes/Unit 0/Binary images.md",
-    "Image Analysis Notes/Index/_Unit -0.md",
-    "README.md",
     "Image Analysis Notes/Class notes/Co-ordinate system.md",
     "Image Analysis Notes/Index/_Unit -2.md",
     "Image Analysis Notes/Unit 2/Detection of discontinuities.md",
     "Image Analysis Notes/Index/_Unit -1.md",
     "Image Analysis Notes/Unit 2/Gradient Operators.md",
-    "Image Analysis Notes/Index/_Image Analysis.md",
     "Unit0/Threshold function.md",
     "Unit0/Operators & Convolution.md",
     "Unit0 1/Binary images.md",
@@ -234,11 +238,7 @@
     "Unit2/Texture segmentation.md",
     "Texture Segmentation 2.md",
     "Unit0/Binary images.md",
-    "Unit0/Kernel.md",
-    "Unit1/Closing.md",
     "Unit0",
-    "Unit1/Opening.md",
-    "Unit1/Dilation & Erosion.md",
     "Instructions.txt"
   ]
 }

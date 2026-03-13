@@ -5,3 +5,4 @@
 - [[Blur]]
 - [[Threshold function]]
 - [[Operators and Convolutions]]
+- [[Sharpening filter]]
