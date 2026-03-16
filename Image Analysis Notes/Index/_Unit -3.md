@@ -1,0 +1,11 @@
+# Boundary Extraction and Representation
+- [[Connectivity]]
+- Contour following
+- Edge linking
+- Hough transform
+- Chain code
+- Fitting line segments
+- B-spline representation
+- Fourier descriptors
+- Shape number
+- Autoregressive model.
