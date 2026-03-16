@@ -1,6 +1,6 @@
 # 1. Introduction – The Camera 
 
-RIGHT CLICK 3 DOTS AND OPEN TO RIGHT
+CLICK 3 DOTS AND OPEN TO RIGHT
 
 ![[lec02_camera.pdf]]
 
@@ -321,11 +321,9 @@ But perspective can also change apparent sizes.
 ### Example: Columns of a Building
 
 Columns closer to the camera appear:
-
 - **Larger**
 
 Columns further away appear:
-
 - **Smaller**
 
 This is **perspective distortion**.
@@ -347,17 +345,12 @@ This makes buildings look like they are **falling backward**.
 ---
 
 ### Solution
-
-Use:
-
 ### **Perspective correction lens (tilt-shift lens)**
 
 It shifts the lens relative to the sensor.
 
 Result:
 - Vertical lines remain **parallel**.
----
-
 ---
 
 # 11. Modeling Projection (Camera Coordinate System)
@@ -638,7 +631,6 @@ Matrix size:
 ### Step 3 — Camera to Pixel Coordinates
 
 Converts coordinates into **pixel location** on the sensor.
-
 Matrix size:
 
 ```
@@ -685,7 +677,6 @@ y' = y
 ```
 
 
-
 ---
 
 ## Example
@@ -724,13 +715,9 @@ Depth does **not affect size**.
 |Parallel lines|Meet at vanishing point|Remain parallel|
 
 ---
-Continuing with the **next topics from your PDF**, now we move from the **mathematical camera model to real cameras and optics**. I will explain everything with **simple examples**.
-
----
 
 # 20. Building a Real Camera
 
-So far we studied the **pinhole camera model**, which is a theoretical model used in **computer vision**.
 
 But real cameras are different because:
 
@@ -739,7 +726,6 @@ But real cameras are different because:
 - They must capture images **quickly**
 
 Therefore real cameras use **lenses** instead of a simple pinhole.
-
 Before lenses were invented, people used something called **Camera Obscura**.
 
 ---
@@ -786,7 +772,6 @@ If a tree is outside the room, the opposite wall shows an **upside-down image of
 ## Real Example
 
 A modern artist named **Abelardo Morell** converted entire rooms into camera obscura systems.
-
 The outside city view is projected onto the walls of the room.
 
 ---
@@ -862,9 +847,6 @@ The mathematical law is:
 
 $n_1 \sin(\alpha_1) = n_2 \sin(\alpha_2)$  
 
-
-
-
 Where:
 
 |Symbol|Meaning|
@@ -930,7 +912,6 @@ Steps:
 # 26. Circle of Confusion
 
 A point in the scene should ideally become a **single pixel** in the image.
-
 But if the object is **not at the correct focus distance**, it forms a **small blurred circle**.
 
 This is called:
@@ -999,7 +980,6 @@ If you focus on a person:
 ### 1. Shallow Depth of Field
 
 Only a small region is in focus.
-
 Example:
 
 - portrait photography
@@ -1010,7 +990,6 @@ Example:
 ### 2. Large Depth of Field
 
 Most of the scene is sharp.
-
 Example:
 
 - landscape photography
@@ -1094,8 +1073,6 @@ This is commonly seen in:
 
 - drone photography
 - city timelapses
-
----
 
 ---
 

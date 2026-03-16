@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Analysis Notes/Index/_Class notes.md",
+                "file": "Image Analysis Notes/Class notes/Camera.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_Class notes"
+              "title": "Camera"
             }
           }
         ],
@@ -211,9 +211,9 @@
   },
   "active": "635a1c091eda90ac",
   "lastOpenFiles": [
+    "Image Analysis Notes/Index/_Class notes.md",
     "Image Analysis Notes/Index/_Image Analysis.md",
     "Image Analysis Notes/Index/_Unit -0.md",
-    "Image Analysis Notes/Index/_Class notes.md",
     "Image Analysis Notes/Unit 0/Sharpening filter.md",
     "Image Analysis Notes/Class notes/Edges.md",
     "Image Analysis Notes/Class notes/Filter.md",
