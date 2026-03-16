@@ -27,3 +27,7 @@ $$f(x, y) = i(x, y) \times r(x, y)  $$
 where
 $$0 < i(x, y) < \infty$$
 $$0 < r(x, y) < 1 $$
+
+
+
+# Next:[[Block Effect]]

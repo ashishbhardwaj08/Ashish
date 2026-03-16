@@ -119,3 +119,7 @@ So discontinuity occurs at borders.
 
 ---
 
+
+
+
+# Next:[[Phase & Resolution]]

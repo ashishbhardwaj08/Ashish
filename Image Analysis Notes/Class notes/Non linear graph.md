@@ -131,3 +131,6 @@ $$\text{Brightness} = (\text{Pixel})^{\gamma} $$
 NOT:  
 $$\text{Brightness} = \text{Pixel}  $$
 So the **0–255 graph is curved, not straight**.
+
+
+# Next: [[Co-ordinate system]]

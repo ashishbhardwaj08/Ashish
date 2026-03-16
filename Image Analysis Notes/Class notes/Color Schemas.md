@@ -102,3 +102,7 @@ Done using:
 • HSV & HSI separate color and intensity
 
 ---
+
+
+
+# Next:[[Filter]] 

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Analysis Notes/Class notes/Camera.md",
+                "file": "Image Analysis Notes/Class notes/Edges.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Camera"
+              "title": "Edges"
             }
           }
         ],
@@ -195,7 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 445.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,14 +209,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "635a1c091eda90ac",
+  "active": "1f6d67127a2c548c",
   "lastOpenFiles": [
+    "Image Analysis Notes/Class notes/Filter.md",
+    "Image Analysis Notes/Class notes/Color Schemas.md",
+    "Image Analysis Notes/Class notes/Optical vs digital zoom.md",
+    "Image Analysis Notes/Class notes/Phase & Resolution.md",
+    "Image Analysis Notes/Class notes/Block Effect.md",
+    "Image Analysis Notes/Class notes/Image as 2D function.md",
+    "Image Analysis Notes/Class notes/Fourier Transform.md",
+    "Image Analysis Notes/Class notes/Frequency.md",
+    "Image Analysis Notes/Class notes/Co-ordinate system.md",
+    "Image Analysis Notes/Class notes/Non linear graph.md",
     "Image Analysis Notes/Index/_Class notes.md",
-    "Image Analysis Notes/Index/_Image Analysis.md",
     "Image Analysis Notes/Index/_Unit -0.md",
+    "Image Analysis Notes/Class notes/Camera.md",
+    "Image Analysis Notes/Index/_Image Analysis.md",
     "Image Analysis Notes/Unit 0/Sharpening filter.md",
     "Image Analysis Notes/Class notes/Edges.md",
-    "Image Analysis Notes/Class notes/Filter.md",
     "README.md",
     "Image Analysis Notes/Unit 2/Laplace Operators.md",
     "Image Analysis Notes/Unit 2/Zero crossing.md",
@@ -224,20 +234,10 @@
     "Image Analysis Notes/Unit 0/Image.md",
     "Image Analysis Notes/Unit 0/Blur.md",
     "Image Analysis Notes/Unit 0/Binary images.md",
-    "Image Analysis Notes/Class notes/Co-ordinate system.md",
     "Image Analysis Notes/Index/_Unit -2.md",
     "Image Analysis Notes/Unit 2/Detection of discontinuities.md",
     "Image Analysis Notes/Index/_Unit -1.md",
-    "Image Analysis Notes/Unit 2/Gradient Operators.md",
-    "Unit0/Threshold function.md",
-    "Unit0/Operators & Convolution.md",
-    "Unit0 1/Binary images.md",
-    "Unit0 1/Threshold function.md",
-    "Unit0 1/Kernel.md",
     "Unit0 1",
-    "Unit2/Texture segmentation.md",
-    "Texture Segmentation 2.md",
-    "Unit0/Binary images.md",
     "Unit0",
     "Instructions.txt"
   ]

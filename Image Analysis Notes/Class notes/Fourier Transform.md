@@ -186,3 +186,8 @@ $$\theta = \tan^{-1}(I/R)  $$
 
 Magnitude shows strength  
 Phase shows structure
+
+
+
+
+# Next:[[Image as 2D function]]

@@ -27,3 +27,6 @@ It is of two types:
     → smallest detectable change in gray level  
     → depends on the number of intensity levels (bit depth)
 ---
+
+
+# Next: [[Optical vs digital zoom]]

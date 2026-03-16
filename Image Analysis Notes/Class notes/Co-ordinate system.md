@@ -100,3 +100,7 @@ Which naturally gives:
 > In image processing, the origin is at the **top-left corner**,  
 > x increases to the right, y increases downward —  
 > so we effectively work in the **fourth quadrant** of the Cartesian plane.
+
+
+
+# Next: [[Frequency]]

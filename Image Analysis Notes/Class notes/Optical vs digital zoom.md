@@ -55,3 +55,8 @@ So yes — conceptually:
 ---
 
 **Optical zoom magnifies using lenses without quality loss, whereas digital zoom enlarges pixels causing loss of resolution.**
+
+
+
+
+# Next: [[Color Schemas]]
