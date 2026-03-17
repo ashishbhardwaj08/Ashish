@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Analysis Notes/Class notes/Class 11.03.26 + 17.03.26.md",
+                "file": "Image Analysis Notes/Index/_Class notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class 11.03.26 + 17.03.26"
+              "title": "_Class notes"
             }
           }
         ],
@@ -211,8 +211,10 @@
   },
   "active": "635a1c091eda90ac",
   "lastOpenFiles": [
-    "Image Analysis Notes/Class notes/Color Schemas.md",
+    "Image Analysis Notes/Index/_Unit -0.md",
+    "Image Analysis Notes/Index/_Class notes.md",
     "Image Analysis Notes/Class notes/Class 11.03.26 + 17.03.26.md",
+    "Image Analysis Notes/Class notes/Color Schemas.md",
     "Image Analysis Notes/Unit 1/Convex hull.md",
     "Image Analysis Notes/Unit 1/Connected Components.md",
     "Image Analysis Notes/Unit 1/Region filling.md",
@@ -229,8 +231,6 @@
     "Image Analysis Notes/Class notes/Frequency.md",
     "Image Analysis Notes/Class notes/Co-ordinate system.md",
     "Image Analysis Notes/Class notes/Non linear graph.md",
-    "Image Analysis Notes/Index/_Class notes.md",
-    "Image Analysis Notes/Index/_Unit -0.md",
     "Image Analysis Notes/Index/_Image Analysis.md",
     "Image Analysis Notes/Unit 0/Sharpening filter.md",
     "README.md",
