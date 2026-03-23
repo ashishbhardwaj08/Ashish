@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "36708886efa64013",
+        "id": "32747d569f264a30",
         "type": "tabs",
         "children": [
           {
-            "id": "84e5dc2cb81e1dbe",
+            "id": "8b84c2fbfbc3fef6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Analysis Notes/Unit 2/Laplace Operators.md",
+                "file": "Image Analysis Notes/Class notes/Block Effect.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Laplace Operators"
-            }
-          },
-          {
-            "id": "635a1c091eda90ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image Analysis Notes/Class notes/Camera.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Camera"
+              "title": "Block Effect"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Canny",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -209,8 +194,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "635a1c091eda90ac",
+  "active": "8b84c2fbfbc3fef6",
   "lastOpenFiles": [
+    "Image Analysis Notes/Unit 0/Threshold function.md",
+    "Image Analysis Notes/Unit 0/Sharpening filter.md",
+    "Image Analysis Notes/Unit 0/Operators and Convolutions.md",
+    "Image Analysis Notes/Unit 0/Kernels.md",
+    "Image Analysis Notes/Unit 2/Detection of discontinuities.md",
     "Image Analysis Notes/Index/_Class notes.md",
     "Image Analysis Notes/Index/_Unit -0.md",
     "Image Analysis Notes/Class notes/Class 11.03.26 + 17.03.26.md",
@@ -232,11 +222,6 @@
     "Image Analysis Notes/Class notes/Co-ordinate system.md",
     "Image Analysis Notes/Class notes/Non linear graph.md",
     "Image Analysis Notes/Index/_Image Analysis.md",
-    "Image Analysis Notes/Unit 0/Sharpening filter.md",
-    "README.md",
-    "Image Analysis Notes/Unit 2/Laplace Operators.md",
-    "Image Analysis Notes/Unit 2/Zero crossing.md",
-    "Image Analysis Notes/Unit 2/Texture segmentation.md",
     "Unit0 1",
     "Unit0",
     "Instructions.txt"

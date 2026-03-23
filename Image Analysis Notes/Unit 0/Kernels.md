@@ -266,12 +266,3 @@ Important Properties of Kernels
 
 ---
 
-Next topic (say only one):  
-👉 **Convolution**  
-👉 **Thresholding**  
-👉 **Sobel operator**  
-👉 **Gaussian filter**  
-👉 **Morphological kernel**  
-👉 **Laplacian operator**
-
-Just name the topic 😄
