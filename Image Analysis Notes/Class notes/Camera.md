@@ -1,4 +1,4 @@
-# 1. Introduction – The Camera 
+ # 1. Introduction – The Camera 
 
 CLICK 3 DOTS AND OPEN TO RIGHT
 

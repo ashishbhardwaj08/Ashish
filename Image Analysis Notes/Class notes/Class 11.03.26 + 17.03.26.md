@@ -17,7 +17,7 @@ $$
 Where
 
 - (x,y) = spatial coordinates
-- (\sigma) = standard deviation (controls blur amount)
+- ($\sigma$) = standard deviation (controls blur amount)
 
 ---
 
@@ -37,7 +37,7 @@ High-frequency noise gets suppressed.
 
 ### 4. Controlled smoothing
 
-Higher ( \sigma ) → stronger blur.
+Higher ($\sigma$ ) → stronger blur.
 
 ---
 
