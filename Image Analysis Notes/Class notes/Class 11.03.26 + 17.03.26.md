@@ -366,7 +366,6 @@ Where
 - Values stored as integers (0–255 typically)
 
 ---
-
 # 3. Digitization and Quantization
 
 Digital image formation involves **two major steps**.
