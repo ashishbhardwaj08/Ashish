@@ -1,0 +1,480 @@
+
+
+---
+
+# 1. Image Segmentation
+
+## Definition
+
+Image segmentation means dividing an image into meaningful regions or objects.
+
+Goal:
+
+- Separate foreground from background
+- Identify important objects
+- Simplify image for further processing
+
+Example:
+
+In a medical image, segmentation can separate:
+
+- bones
+- tissues
+- organs
+
+In object detection:
+
+- car separated from road
+- face separated from background
+
+---
+
+# 2. Recognition vs Segmentation
+
+| Segmentation                          | Recognition                     |
+| ------------------------------------- | ------------------------------- |
+| Divides image into regions            | Identifies what the region is   |
+| Example: separate cat from background | Example: classify object as cat |
+| Output is mask/regions                | Output is label/class           |
+
+Segmentation often comes before recognition.
+
+Pipeline:
+
+Image → Segmentation → Feature Extraction → Recognition
+
+---
+
+# 3. ROI (Region of Interest)
+
+## Definition
+
+ROI means the specific part of an image that is important for analysis.
+
+Example:
+
+- In face detection, only face area is ROI
+- In medical imaging, tumor region is ROI
+- In fingerprint scanning, ridge area is ROI
+
+Advantages:
+
+- Reduces computation
+- Focuses only on useful information
+- Improves accuracy
+
+---
+
+# 4. Histogram for Foreground and Background Separation
+
+A histogram shows how many pixels exist for each intensity value.
+
+For grayscale image:
+
+- x-axis = intensity value (0–255)
+- y-axis = number of pixels
+
+Suppose image size:
+
+$100 \times 100 = 10000 \text{ pixels}$
+
+Suppose:
+
+- Foreground pixels = 7000
+- Background pixels = 3000
+
+Then normalized values are:
+
+Foreground probability:
+
+$\frac{7000}{10000} = 0.7$
+
+Background probability:
+
+$\frac{3000}{10000} = 0.3$ 
+
+These probabilities help decide which class dominates.
+
+If foreground probability is close to 1, foreground occupies most of image.
+
+---
+
+# 5. Probabilistic Distribution in Images
+
+Images can be represented statistically.
+
+Pixel intensities are treated like a probability distribution.
+
+For example:
+
+$$P(i) = \frac{\text{Number of pixels with intensity } i}{\text{Total number of pixels}}$$
+
+
+This is called histogram normalization.
+
+Normalized histogram gives values between 0 and 1.
+
+Example:
+
+If 500 pixels have intensity 120 in a 10000-pixel image:
+
+$$P(120)=\frac{500}{10000}=0.05  $$
+Meaning:  
+5% of pixels have intensity 120.
+
+---
+
+# 6. Normalization of Values
+
+Normalization means converting raw counts into probabilities.
+
+Formula:
+$$
+P(i)=\frac{n_i}{N}
+$$
+Where:
+
+- (n_i) = number of pixels of intensity (i) 
+- (N) = total number of pixels
+
+Benefits:
+
+- Makes comparison between images easier
+- Independent of image size
+- Used in probability-based segmentation
+
+---
+
+# 7. Natural Images and Gaussian Noise
+
+Most natural images contain noise.
+
+Many times this noise is assumed to follow Gaussian distribution.
+
+Why?
+
+Because random variations from sensors, lighting, electronics, etc. often behave like normal distribution.
+
+Gaussian noise model:
+
+$$p(x)=\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
+
+Where:
+
+- ($\mu$) = mean intensity
+- ($\sigma$) = standard deviation
+
+Characteristics:
+
+- Most values are near mean
+- Extreme values are rare
+- Bell-shaped curve
+---
+
+# 8. Region-Based Segmentation
+
+## Definition
+
+Region-based segmentation groups neighboring pixels with similar properties.
+
+Properties may include:
+
+- intensity
+- color
+- texture
+- pattern
+
+Important idea:
+
+Neighboring pixels are usually related.
+
+Example:  
+All sky pixels are similar blue color.
+
+---
+
+## Main Principle
+
+Pixels in same region should be:
+
+- similar to each other
+- different from other regions
+---
+
+# 9. Neighbourhood in Region Growing
+
+Region growing starts from seed pixels and adds neighboring pixels if they are similar.
+
+Possible neighborhood systems:
+
+### 4-Neighbourhood
+
+- Up
+- Down
+- Left
+- Right
+
+### 8-Neighbourhood
+
+Also includes diagonal neighbors.
+
+---
+
+# 10. Bottom-Up Approach
+
+Bottom-up means starting from small pieces and combining them.
+
+Example:
+
+- Start with individual pixels
+- Merge similar neighboring pixels
+- Form larger regions
+
+This is opposite of top-down approach.
+
+---
+
+# 11. Granularity
+
+Granularity means how fine or coarse the segmentation is.
+
+High granularity:
+
+- many small regions
+- more details
+
+Low granularity:
+
+- few large regions
+- less detail
+
+Example:  
+Face segmentation can be:
+
+- whole face as one region
+- or eyes, nose, lips separately
+
+---
+
+# 12. Estimating Number of Clusters from Histogram
+
+Histogram can help guess how many objects or regions exist.
+
+If histogram has:
+
+- one peak → one major region
+- two peaks → likely foreground and background
+- multiple peaks → multiple objects/materials
+Example:
+
+Dark pixels peak = background  
+Bright pixels peak = foreground
+
+This is useful in thresholding and clustering.
+
+---
+
+# 13. Gaussian Mixture Models (GMM)
+
+## Definition
+
+A Gaussian Mixture Model assumes image intensities come from multiple Gaussian distributions.
+
+Example:  
+An image may contain:
+
+- dark background
+- medium gray object
+- bright object
+
+Each group can be modeled by a Gaussian.
+
+Overall distribution:
+
+$$P(x)=\sum_{k=1}^{K}\pi_k \mathcal{N}(x|\mu_k,\sigma_k^2)  $$
+Where:
+
+- (K) = number of Gaussian components
+- ($\pi_k)$ = weight of component
+- ($\mu_k$) = mean
+- ($\sigma_k$) = variance
+---
+
+## Why GMM is Useful
+
+Because real images rarely contain only one Gaussian distribution.
+
+Example:  
+Face image may have:
+
+- hair region
+- skin region
+- clothes region
+- background region
+
+Each region may have separate intensity distribution.
+
+---
+
+# 14. Overlapping Gaussian Distributions
+
+In real images, object intensities may overlap.
+
+Example:  
+Dark gray shirt and shadow may have similar pixel intensities.
+
+Thus Gaussian curves overlap.
+
+This makes segmentation difficult.
+
+GMM handles overlapping distributions better than simple thresholding.
+
+---
+
+# 15. Clustering in Image Segmentation
+
+## Definition
+
+Clustering groups similar pixels together.
+
+No labels are given beforehand.
+
+Common clustering algorithm:
+
+- K-means
+
+---
+
+# 16. K-Means Clustering
+
+## Main Idea
+
+Choose (K) centroids.
+
+Each pixel joins nearest centroid.
+
+Then centroids are updated repeatedly.
+
+Goal:
+
+- Minimize distance within cluster
+    
+- Maximize distance between clusters
+    
+
+---
+
+## Distance from Centroid
+
+Each point should be closest to its own centroid.
+
+$$For\ pixel (x_i)\ and\ centroid (c_j):
+
+d(x_i,c_j)=\sqrt{(x_i-c_j)^2}$$
+
+In color images, Euclidean distance may use RGB components.
+
+---
+
+## Good Clustering Conditions
+
+### Within-cluster distance
+
+Should be minimum.
+
+### Between-cluster distance
+
+Should be maximum.
+
+This means:
+
+- pixels inside same cluster are similar
+    
+- different clusters are far apart
+    
+
+---
+
+# 17. Classification Algorithms
+
+After segmentation, regions can be classified.
+
+Example:
+
+- cluster 1 = sky
+- cluster 2 = tree
+- cluster 3 = road
+
+Classification algorithms include:
+
+- KNN
+- SVM
+- Neural Networks
+- Decision Trees
+Segmentation gives regions, classification gives labels.
+
+---
+
+# 18. Split and Merge Segmentation
+
+This is a region-based segmentation method.
+
+---
+
+## Splitting
+
+If a region is not homogeneous, split it into smaller parts.
+
+Example:  
+Large region contains both dark and bright pixels.
+
+Then split it.
+
+---
+
+## Merging
+
+If neighboring regions are similar, merge them.
+
+Example:  
+Two adjacent gray regions belong to same object.
+
+Then combine them.
+
+---
+
+## Process
+
+1. Start with whole image
+2. Split non-uniform regions
+3. Merge similar neighboring regions
+4. Repeat until stable segmentation
+
+This is often called split-and-merge segmentation.
+
+---
+
+# 19. Histogram Loses Location Information
+
+Histogram only tells:
+
+- how many pixels of each intensity exist
+
+Histogram does NOT tell:
+
+- where those pixels are located
+Example:
+
+Two images may have same histogram:
+
+- one has bright object at center
+- one has bright object at corner
+
+Histogram cannot distinguish them.
+
+Thus histogram ignores spatial arrangement.
+
+This is one major limitation.
+
+---
+
