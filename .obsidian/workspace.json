@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Analysis Notes/Class notes/15. Segmentation and Grouping.md",
+                "file": "Image Analysis Notes/Class notes/12. Class 11.03.26 + 17.03.26.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "15. Segmentation and Grouping"
+              "title": "12. Class 11.03.26 + 17.03.26"
             }
           }
         ]
@@ -196,6 +196,12 @@
   },
   "active": "2abc5e5dba26027e",
   "lastOpenFiles": [
+    "Image Analysis Notes/Unit 3/Connectivity.md",
+    "Image Analysis Notes/Index/_Unit -3.md",
+    "Image Analysis Notes/Index/_Unit -2.md",
+    "Image Analysis Notes/Index/_Unit -1.md",
+    "Image Analysis Notes/Index/_Unit -0.md",
+    "Image Analysis Notes/Index/_Image Analysis.md",
     "Image Analysis Notes/Index/_Class notes.md",
     "Image Analysis Notes/Class notes/15. Segmentation and Grouping.md",
     "Image Analysis Notes/Class notes/14. Image Segmentation and Recognition.md",
@@ -216,12 +222,6 @@
     "Image Analysis Notes/Unit 2/Region-based approaches and Clustering.md",
     "Image Analysis Notes/Unit 0/Threshold function.md",
     "Image Analysis Notes/Unit 2/Amplitude thresholding or Window slicing.md",
-    "README.md",
-    "Image Analysis Notes/Unit 0/Sharpening filter.md",
-    "Image Analysis Notes/Unit 0/Operators and Convolutions.md",
-    "Image Analysis Notes/Unit 2/Detection of discontinuities.md",
-    "Image Analysis Notes/Index/_Unit -0.md",
-    "Image Analysis Notes/Unit 1/Convex hull.md",
     "Unit0 1",
     "Unit0",
     "Instructions.txt"
