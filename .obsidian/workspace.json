@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b1061d60922613ab",
+            "id": "3272dc348005f7e9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Image Analysis Notes/Class notes/14b. Segmentation Summary.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "14b. Segmentation Summary"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a6be2bca23c60bfa",
@@ -190,17 +195,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b1061d60922613ab",
+  "active": "3272dc348005f7e9",
   "lastOpenFiles": [
-    "Image Analysis Notes/attachments/lec07_corner_blob.pdf",
+    "Rough.md",
     "Image Analysis Notes/Class notes/14b. Segmentation Summary.md",
     "Image Analysis Notes/Class notes/14. Image Segmentation and Recognition.md",
-    "Image Analysis Notes/Unit 2/Texture segmentation.md",
-    "Image Analysis Notes/Class notes/15. Segmentation and Grouping.md",
-    "Image Analysis Notes/Class notes/16. Feature Extraction Corners and Blobs.md",
-    "Image Analysis Notes/Class notes/12. Class 11.03.26 + 17.03.26.md",
-    "Image Analysis Notes/Class notes/11. Edges.md",
     "Image Analysis Notes/Class notes/13. Camera.md",
+    "Image Analysis Notes/Class notes/12. Class 11.03.26 + 17.03.26.md",
+    "Image Analysis Notes/Class notes/15. Segmentation and Grouping.md",
+    "1 - Templates/Notes Template.md",
+    "1 - Templates/Main Note.md",
+    "Image Analysis Notes/attachments/lec07_corner_blob.pdf",
+    "Image Analysis Notes/Unit 2/Texture segmentation.md",
+    "Image Analysis Notes/Class notes/16. Feature Extraction Corners and Blobs.md",
+    "Image Analysis Notes/Class notes/11. Edges.md",
     "Image Analysis Notes/Class notes/1. Non linear graph.md",
     "Image Analysis Notes/Unit 2/Region-based approaches and Clustering.md",
     "Image Analysis Notes/Unit 3/Connectivity.md",
@@ -216,8 +224,6 @@
     "Image Analysis Notes/Class notes/7. Phase & Resolution.md",
     "Image Analysis Notes/Class notes/6. Block Effect.md",
     "Image Analysis Notes/Class notes/5. Image as 2D function.md",
-    "Image Analysis Notes/Class notes/4. Fourier Transform.md",
-    "Image Analysis Notes/Class notes/3. Frequency.md",
     "Unit0 1",
     "Unit0",
     "Instructions.txt"
