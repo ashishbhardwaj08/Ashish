@@ -1,0 +1,392 @@
+# Corner Detection & Blob Detection
+
+
+---
+
+# 1. Why Do We Need Corners and Blobs?
+
+In computer vision, we don’t work directly with all pixels.
+
+We extract **important points (features)** like:
+
+- edges → boundaries
+- **corners → distinctive points**
+- **blobs → regions of interest**
+ 
+ These features are used in:
+
+- image matching
+- tracking
+- panorama stitching
+- object recognition
+
+
+---
+
+# 2. Corner Detection
+
+
+## Intuition
+
+A **corner** is a point where intensity changes in **multiple directions**.
+
+### Example:
+
+- Flat region → no change
+- Edge → change in one direction
+- Corner → change in **both x and y directions**
+
+## Key Idea
+
+If we shift a small window:
+
+- Flat → no change
+- Edge → change in one direction
+- Corner → change in all directions
+
+
+## Mathematical Formulation
+
+Change in intensity when shifted by ((u,v)):
+  
+$E(u,v) = \sum W(x,y)[I(x+u,y+v) - I(x,y)]^2$ 
+
+
+where,
+- W(x,y) = Window function
+- I(x+u,y+v) = Shift intensity
+- I(x,y)] = Intensity
+
+## Second Moment Matrix (Structure Tensor)
+
+ 
+$$M =  
+\begin{bmatrix}  
+I_x^2 & I_x I_y \\  
+I_x I_y & I_y^2  
+\end{bmatrix} $$
+
+##  Interpretation (Eigenvalues)
+
+Let eigenvalues = $( \lambda_1, \lambda_2 )$
+
+|Case|Meaning|
+|---|---|
+|small, small|flat|
+|large, small|edge|
+|large, large|corner|
+
+## Harris Corner Detector
+
+### Formula
+
+$R = \det(M) - k(\text{trace}(M))^2$  
+
+Where:
+
+- $(k \approx 0.04)$
+
+
+## 🧠 Interpretation
+
+- (R > 0) → corner
+- (R < 0) → edge
+- (R \approx 0) → flat
+
+## Harris Steps
+
+1. Compute gradients $(I_x, I_y)$
+2. Compute products $(I_x^2, I_y^2, I_xI_y)$
+3. Apply Gaussian smoothing
+4. Form matrix (M)
+5. Compute (R)
+6. Threshold
+
+##  Code (Harris Corner)
+
+```python
+import cv2
+import numpy as np
+
+img = cv2.imread('image.jpg')
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+gray = np.float32(gray)
+
+dst = cv2.cornerHarris(gray, 2, 3, 0.04)
+
+img[dst > 0.01 * dst.max()] = [0, 0, 255]
+
+cv2.imshow('Corners', img)
+cv2.waitKey(0)
+```
+
+
+##  Properties of Good Corners
+
+- Repeatable
+- Distinctive
+- Localized
+- Robust to noise
+
+## Limitations
+
+- Not scale invariant (basic Harris)
+- Sensitive to parameter tuning
+
+---
+
+# 3. Blob Detection
+
+## Intuition
+
+A **blob** is a region that is:
+
+- brighter or darker than surroundings
+- has uniform intensity
+
+## Examples
+
+- bright spot
+- circular region
+- tumor in scan
+
+## Key Idea
+
+Detect regions where intensity changes in **all directions (like circles)**.
+
+---
+
+# Methods for Blob Detection
+
+---
+
+# 3.1 Laplacian of Gaussian (LoG)
+
+## Idea
+
+- Smooth image (Gaussian)
+- Apply Laplacian (2nd derivative)
+
+## Formula
+
+ 
+$\nabla^2 G(x,y)$  
+
+Detects regions where intensity changes sharply.
+
+## Key Point
+
+ Blobs detected as **maxima/minima**
+
+---
+
+# 3.2 Difference of Gaussian (DoG)
+
+## Idea
+
+Approximation of LoG:
+
+$DoG = G(\sigma_1) - G(\sigma_2)$ 
+
+## Advantage
+
+- Faster than LoG
+- Used in SIFT
+
+---
+
+# 3.3 Determinant of Hessian (DoH)
+
+Uses second-order derivatives:
+
+$$H =  
+\begin{bmatrix}  
+I_{xx} & I_{xy} \\  
+I_{xy} & I_{yy}  
+\end{bmatrix}$$ 
+
+Blob strength:
+
+ 
+$\det(H)$ 
+
+
+---
+
+# Scale-Space Concept
+
+## Problem
+
+Blob size varies.
+
+## Solution
+
+Use multiple scales:
+
+- small σ → small blobs
+- large σ → large blobs
+
+## Scale Normalization
+
+Multiply by σ:
+
+ Ensures fair comparison across scales
+
+---
+
+# Blob Detection Steps
+
+1. Apply Gaussian at multiple scales
+2. Compute response (LoG/DoG)
+3. Find maxima in space + scale
+4. Mark blobs
+
+---
+
+##  Code (Simple Blob Detection)
+
+```python
+import cv2
+
+img = cv2.imread('image.jpg', 0)
+
+detector = cv2.SimpleBlobDetector_create()
+keypoints = detector.detect(img)
+
+img_with_blobs = cv2.drawKeypoints(
+    img, keypoints, None, (0,0,255),
+    cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS
+)
+
+cv2.imshow("Blobs", img_with_blobs)
+cv2.waitKey(0)
+```
+
+---
+
+# 4. Corner vs Blob (Important Comparison)
+
+|Feature|Corner|Blob|
+|---|---|---|
+|Definition|point|region|
+|Change|2 directions|all directions|
+|Shape|intersection|circular|
+|Use|matching|detection|
+|Example|building corner|circular object|
+
+---
+
+#  5. Invariance in Detection
+
+Good detectors should be:
+
+### Geometric invariance
+
+- rotation
+- scale
+- affine
+
+### Photometric invariance
+
+- lighting changes
+
+---
+
+# 6. Key Combined Understanding
+
+- Corners → sharp intersection points
+- Blobs → uniform regions
+- Both are **feature detectors**
+- Used for:
+	- matching
+	- tracking
+	- recognition
+
+
+---
+# Detecting Corners of Different Sizes (Radius) Using Kernels
+
+## Problem
+
+Not all corners in an image are the same size.
+- Some corners are **sharp and small**
+- Some are **broad and smooth (large radius)**
+ A single fixed-size kernel **cannot detect all types of corners properly**
+
+## Why Kernel Size Matters
+
+In corner detection (like Harris), we use a **window/kernel** to analyze intensity variation.
+
+- Small kernel → looks at **tiny neighborhood**
+- Large kernel → looks at **wider region**
+
+## Case 1: Small Kernel
+
+Example: 3×3
+
+- Detects **sharp corners**
+- Misses large smooth corners
+- Sensitive to noise
+## Case 2: Large Kernel
+
+Example: 7×7 or larger
+
+- Detects **broad corners**
+- Misses fine details
+- More robust to noise
+
+
+## Solution: Multi-Scale Detection
+
+Instead of using one kernel:
+
+ Use **multiple kernel sizes (multi-scale approach)**
+
+## How It Works
+
+1. Apply corner detector with small kernel
+2. Apply with medium kernel
+3. Apply with large kernel
+4. Combine results
+
+## Connection to Gaussian Scale-Space
+
+We control scale using Gaussian smoothing:
+
+- Small σ → fine details
+- Large σ → coarse structures
+
+## Scale-Normalized Detection
+
+To fairly compare across scales:
+Multiply response by scale factor (σ)
+
+This ensures:
+- small and large corners are treated equally
+## Intuition
+
+Think of it like zooming:
+
+- Zoom in → detect tiny corners
+- Zoom out → detect large corners
+
+##  Real Algorithms Using This Idea
+
+- SIFT (Scale-Invariant Feature Transform)
+- SURF
+- Multi-scale Harris
+
+---
+# Summary
+
+- **Edge** → boundary
+- **Corner** → intersection of edges
+- **Blob** → region with uniform intensity
+
+Corners exist at **different sizes**
+- Kernel size controls what we detect
+- Single kernel = incomplete detection
+- Multi-scale = robust detection
+
+---
+

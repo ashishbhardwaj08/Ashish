@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Analysis Notes/Class notes/16. Feature Extraction Corners and Blobs.md",
+                "file": "Corner and Blob Organised.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "16. Feature Extraction Corners and Blobs"
+              "title": "Corner and Blob Organised"
+            }
+          },
+          {
+            "id": "96fd381ec549d849",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Image Analysis Notes/attachments/lec07_corner_blob.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "lec07_corner_blob"
             }
           }
         ]
@@ -196,16 +208,17 @@
   },
   "active": "3272dc348005f7e9",
   "lastOpenFiles": [
-    "Image Analysis Notes/Class notes/15. Segmentation and Grouping.md",
-    "Image Analysis Notes/Class notes/14b. Segmentation Summary.md",
-    "Image Analysis Notes/Class notes/14. Image Segmentation and Recognition.md",
     "Image Analysis Notes/Class notes/16. Feature Extraction Corners and Blobs.md",
+    "Image Analysis Notes/attachments/lec07_corner_blob.pdf",
+    "Corner and Blob Organised.md",
+    "Image Analysis Notes/Class notes/14b. Segmentation Organised.md",
+    "Image Analysis Notes/Class notes/15. Segmentation and Grouping.md",
+    "Image Analysis Notes/Class notes/14. Image Segmentation and Recognition.md",
     "Image Analysis Notes/Class notes/12. Class 11.03.26 + 17.03.26.md",
     "Rough.md",
     "Image Analysis Notes/Class notes/13. Camera.md",
     "1 - Templates/Notes Template.md",
     "1 - Templates/Main Note.md",
-    "Image Analysis Notes/attachments/lec07_corner_blob.pdf",
     "Image Analysis Notes/Unit 2/Texture segmentation.md",
     "Image Analysis Notes/Class notes/11. Edges.md",
     "Image Analysis Notes/Class notes/1. Non linear graph.md",
@@ -221,8 +234,6 @@
     "Image Analysis Notes/Class notes/9. Color Schemas.md",
     "Image Analysis Notes/Class notes/8. Optical vs digital zoom.md",
     "Image Analysis Notes/Class notes/7. Phase & Resolution.md",
-    "Image Analysis Notes/Class notes/6. Block Effect.md",
-    "Image Analysis Notes/Class notes/5. Image as 2D function.md",
     "Unit0 1",
     "Unit0",
     "Instructions.txt"
