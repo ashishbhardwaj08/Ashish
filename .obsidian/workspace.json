@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14b. Segmentation Summary.md",
+                "file": "Image Analysis Notes/Class notes/14b. Segmentation Summary.md",
                 "mode": "source",
                 "source": false
               },
@@ -103,8 +103,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -224,10 +223,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5ec48a96dc332cfd",
+  "active": "1da84ebc218758df",
   "lastOpenFiles": [
     "Image Analysis Notes/Class notes/14. Image Segmentation and Recognition.md",
-    "14b. Segmentation Summary.md",
+    "Image Analysis Notes/Class notes/14b. Segmentation Summary.md",
     "Image Analysis Notes/Unit 2/Texture segmentation.md",
     "Image Analysis Notes/Class notes/15. Segmentation and Grouping.md",
     "Image Analysis Notes/Class notes/16. Feature Extraction Corners and Blobs.md",
