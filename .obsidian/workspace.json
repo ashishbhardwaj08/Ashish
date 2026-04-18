@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "32747d569f264a30",
+        "id": "a6e0719d604a177f",
         "type": "tabs",
         "children": [
           {
-            "id": "2abc5e5dba26027e",
+            "id": "b1061d60922613ab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image Analysis Notes/Class notes/1. Non linear graph.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1. Non linear graph"
-            }
-          },
-          {
-            "id": "83eabae602644ceb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image Analysis Notes/Class notes/14. Image Segmentation and Recognition.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "14. Image Segmentation and Recognition"
-            }
-          },
-          {
-            "id": "f4fb154740014383",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Image Analysis Notes/Class notes/14b. Segmentation Summary.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "14b. Segmentation Summary"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,10 +190,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1da84ebc218758df",
+  "active": "b1061d60922613ab",
   "lastOpenFiles": [
-    "Image Analysis Notes/Class notes/14. Image Segmentation and Recognition.md",
+    "Image Analysis Notes/attachments/lec07_corner_blob.pdf",
     "Image Analysis Notes/Class notes/14b. Segmentation Summary.md",
+    "Image Analysis Notes/Class notes/14. Image Segmentation and Recognition.md",
     "Image Analysis Notes/Unit 2/Texture segmentation.md",
     "Image Analysis Notes/Class notes/15. Segmentation and Grouping.md",
     "Image Analysis Notes/Class notes/16. Feature Extraction Corners and Blobs.md",
@@ -250,7 +218,6 @@
     "Image Analysis Notes/Class notes/5. Image as 2D function.md",
     "Image Analysis Notes/Class notes/4. Fourier Transform.md",
     "Image Analysis Notes/Class notes/3. Frequency.md",
-    "Image Analysis Notes/Class notes/2. Co-ordinate system.md",
     "Unit0 1",
     "Unit0",
     "Instructions.txt"
