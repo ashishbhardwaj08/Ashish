@@ -12,5 +12,5 @@
 - [[11. Edges]]
 - [[12. Class 11.03.26 + 17.03.26]]
 - [[13. Camera]]
-- [[14. Image Segmentation and Recognition]]
-- [[15. Segmentation and Grouping]]
+- [[14. Image Segmentation and Recognition (Class Topics)]]
+- [[15. Segmentation and Grouping (Class Topics)]]
