@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Analysis Notes/Class notes/14b. Segmentation Organised.md",
+                "file": "Image Analysis Notes/Class notes/16b. Corner and Blob Organised.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14b. Segmentation Organised"
+              "title": "16b. Corner and Blob Organised"
             }
           }
         ]
@@ -216,8 +216,10 @@
   },
   "active": "115cd8e309de9ef7",
   "lastOpenFiles": [
-    "Image Analysis Notes/Index/_Unit -2.md",
+    "Image Analysis Notes/Class notes/15. Segmentation and Grouping (Class Topics).md",
+    "Image Analysis Notes/Class notes/14c. Segmentation comparision.md",
     "Image Analysis Notes/Class notes/14b. Segmentation Organised.md",
+    "Image Analysis Notes/Index/_Unit -2.md",
     "Image Analysis Notes/Index/_Class notes.md",
     "Image Analysis Notes/Unit 2/13. Texture segmentation.md",
     "Image Analysis Notes/Unit 2/12. Template Matching.md",
@@ -240,8 +242,6 @@
     "Image Analysis Notes/Unit 1/7. Convex hull.md",
     "Image Analysis Notes/Unit 1/6. Connected Components.md",
     "Image Analysis Notes/Unit 1/5. Region filling.md",
-    "Image Analysis Notes/Unit 1/4. Boundary extraction.md",
-    "Image Analysis Notes/Unit 1/3. Hit-or-Miss transformation.md",
     "Image Analysis Notes/attachments/lec07_corner_blob.pdf",
     "Unit0 1",
     "Unit0",
