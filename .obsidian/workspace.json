@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Analysis Notes/Unit 1/12. Grayscale Morphology.md",
+                "file": "Image Analysis Notes/Class notes/14b. Segmentation Organised.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12. Grayscale Morphology"
+              "title": "14b. Segmentation Organised"
             }
           }
         ]
@@ -214,8 +214,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd84143889ed4b2c",
+  "active": "115cd8e309de9ef7",
   "lastOpenFiles": [
+    "Image Analysis Notes/Index/_Unit -2.md",
+    "Image Analysis Notes/Class notes/14b. Segmentation Organised.md",
+    "Image Analysis Notes/Index/_Class notes.md",
+    "Image Analysis Notes/Unit 2/13. Texture segmentation.md",
+    "Image Analysis Notes/Unit 2/12. Template Matching.md",
+    "Image Analysis Notes/Unit 2/11. Region-based approaches and Clustering.md",
+    "Image Analysis Notes/Unit 2/10. Boundary based approaches.md",
+    "Image Analysis Notes/Unit 2/9. Component labeling.md",
+    "Image Analysis Notes/Unit 2/8. Amplitude thresholding or Window slicing.md",
+    "Image Analysis Notes/Unit 2/7. Performance of edge detector operators.md",
+    "Image Analysis Notes/Unit 2/6. Stochastic gradients.md",
+    "Image Analysis Notes/Unit 2/5. Zero crossing.md",
+    "Image Analysis Notes/Unit 2/4. Laplace Operators.md",
+    "Image Analysis Notes/Unit 2/3. Compass Operators.md",
+    "Image Analysis Notes/Unit 2/2. Gradient Operators.md",
+    "Image Analysis Notes/Unit 2/1. Detection of discontinuities.md",
     "Image Analysis Notes/Unit 1/12. Grayscale Morphology.md",
     "Image Analysis Notes/Unit 1/11. Pruning.md",
     "Image Analysis Notes/Unit 1/10. Skeletons.md",
@@ -226,22 +242,6 @@
     "Image Analysis Notes/Unit 1/5. Region filling.md",
     "Image Analysis Notes/Unit 1/4. Boundary extraction.md",
     "Image Analysis Notes/Unit 1/3. Hit-or-Miss transformation.md",
-    "Image Analysis Notes/Unit 1/2b. Closing.md",
-    "Image Analysis Notes/Unit 1/2a. Opening.md",
-    "Image Analysis Notes/Unit 1/1. Dilation & Erosion.md",
-    "Image Analysis Notes/Index/_Unit -1.md",
-    "Image Analysis Notes/Unit 0/Edge detection filters.md",
-    "Image Analysis Notes/Unit 0/7. Sharpening filter.md",
-    "Image Analysis Notes/Unit 0/6. Operators and Convolutions.md",
-    "Image Analysis Notes/Unit 0/5. Threshold function.md",
-    "Image Analysis Notes/Unit 0/4. Blur.md",
-    "Image Analysis Notes/Unit 0/3. Kernels.md",
-    "Image Analysis Notes/Unit 0/2. Binary images.md",
-    "Image Analysis Notes/Unit 0/1. Image.md",
-    "Image Analysis Notes/Index/_Unit -0.md",
-    "Image Analysis Notes/Index/_Image Analysis.md",
-    "Image Analysis Notes/Index/_Class notes.md",
-    "Image Analysis Notes/Unit 2/Texture segmentation.md",
     "Image Analysis Notes/attachments/lec07_corner_blob.pdf",
     "Unit0 1",
     "Unit0",

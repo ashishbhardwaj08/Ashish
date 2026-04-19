@@ -1,15 +1,15 @@
 # Image Segmentation
 
-- [[Detection of discontinuities]] – Point detection, Line detection, Edge detection
-- [[Gradient operators]]
-- [[Compass operators]]
-- [[Laplace operators]]
-- [[Zero crossing]]
-- [[Stochastic gradients]]
-- [[Performance of edge detector operators]].
-- [[Amplitude thresholding or Window slicing]] 
-- [[Component labeling]]
-- [[Boundary based approaches]]
-- [[Region-based approaches and Clustering]]
-- [[Template matching]]
-- [[Texture segmentation]]
+- [[1. Detection of discontinuities]] – Point detection, Line detection, Edge detection
+- [[2. Gradient Operators]]
+- [[3. Compass Operators]]
+- [[4. Laplace Operators]]
+- [[5. Zero crossing]]
+- [[6. Stochastic gradients]]
+- [[7. Performance of edge detector operators]].
+- [[8. Amplitude thresholding or Window slicing]] 
+- [[9. Component labeling]]
+- [[10. Boundary based approaches]]
+- [[11. Region-based approaches and Clustering]]
+- [[12. Template Matching]]
+- [[13. Texture segmentation]]
