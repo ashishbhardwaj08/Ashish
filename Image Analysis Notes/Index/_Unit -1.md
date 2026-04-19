@@ -2,11 +2,11 @@
 
 - Basic concept of set theory
 - Logic operation involving binary images
-- [[Dilation & Erosion]]
-- [[Opening]] and [[Closing]]
-- [[Hit-or-Miss transformation]]
+- [[1. Dilation & Erosion]]
+- [[2a. Opening]] and [[2b. Closing]]
+- [[3. Hit-or-Miss transformation]]
 - Some basic morphological algorithms –
-- [[Boundary extraction]],
+- [[4. Boundary extraction]],
 - [[Region filling]]
 - Extraction of [[Connected Components]]
 - [[Convex hull]]
