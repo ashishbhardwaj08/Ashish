@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "58deccad77f54a3d",
+        "id": "0b0a31ce60d400d6",
         "type": "tabs",
         "children": [
           {
-            "id": "115cd8e309de9ef7",
+            "id": "9050240735344dea",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Image Analysis Notes/Class notes/14c. Segmentation comparision.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "14c. Segmentation comparision"
             }
           }
         ]
@@ -194,13 +194,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "115cd8e309de9ef7",
+  "active": "9050240735344dea",
   "lastOpenFiles": [
+    "Image Analysis Notes/Class notes/14b. Segmentation Organised.md",
+    "Image Analysis Notes/Class notes/14c. Segmentation comparision.md",
     "Image Analysis Notes/Class notes/16b. Corner and Blob Organised.md",
+    "Image Analysis Notes/attachments/Wavelets and Images.pdf",
+    "Image Analysis Notes/attachments/lec01_intro.pdf",
+    "Image Analysis Notes/attachments/Intro_Sig_Image Processing [Compatibility Mode].pdf",
+    "Image Analysis Notes/attachments/lec02_camera.pdf",
+    "Image Analysis Notes/Class notes/5. Image as 2D function.md",
+    "Image Analysis Notes/Class notes/14. Image Segmentation and Recognition (Class Topics).md",
+    "Rough.md",
+    "Image Analysis Notes/Unit 2/1. Detection of discontinuities.md",
+    "Image Analysis Notes/Class notes/11. Edges.md",
+    "Image Analysis Notes/Class notes/10. Filter.md",
+    "Image Analysis Notes/Class notes/9. Color Schemas.md",
+    "Image Analysis Notes/Class notes/1. Non linear graph.md",
     "Image Analysis Notes/Index/_Unit -2.md",
     "Image Analysis Notes/Class notes/15. Segmentation and Grouping (Class Topics).md",
-    "Image Analysis Notes/Class notes/14c. Segmentation comparision.md",
-    "Image Analysis Notes/Class notes/14b. Segmentation Organised.md",
     "Image Analysis Notes/Index/_Class notes.md",
     "Image Analysis Notes/Unit 2/13. Texture segmentation.md",
     "Image Analysis Notes/Unit 2/12. Template Matching.md",
@@ -213,15 +225,6 @@
     "Image Analysis Notes/Unit 2/5. Zero crossing.md",
     "Image Analysis Notes/Unit 2/4. Laplace Operators.md",
     "Image Analysis Notes/Unit 2/3. Compass Operators.md",
-    "Image Analysis Notes/Unit 2/2. Gradient Operators.md",
-    "Image Analysis Notes/Unit 2/1. Detection of discontinuities.md",
-    "Image Analysis Notes/Unit 1/12. Grayscale Morphology.md",
-    "Image Analysis Notes/Unit 1/11. Pruning.md",
-    "Image Analysis Notes/Unit 1/10. Skeletons.md",
-    "Image Analysis Notes/Unit 1/9. Thickening.md",
-    "Image Analysis Notes/Unit 1/8. Thinning.md",
-    "Image Analysis Notes/Unit 1/7. Convex hull.md",
-    "Image Analysis Notes/Unit 1/6. Connected Components.md",
     "Image Analysis Notes/attachments/lec07_corner_blob.pdf",
     "Unit0 1",
     "Unit0",
