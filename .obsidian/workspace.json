@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "0b0a31ce60d400d6",
+        "id": "8440dcc005c37580",
         "type": "tabs",
         "children": [
           {
-            "id": "9050240735344dea",
+            "id": "a8cecbf8a4730765",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Analysis Notes/Class notes/16. Feature Extraction Corners and Blobs (Class Topics).md",
+                "file": "Image Analysis Notes/Class notes/16b. Corner and Blob Organised.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "16. Feature Extraction Corners and Blobs (Class Topics)"
+              "title": "16b. Corner and Blob Organised"
+            }
+          },
+          {
+            "id": "b96a0ff813c7453d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Image Analysis Notes/Class notes/17. Context (Class topics).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "17. Context (Class topics)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,41 +209,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9050240735344dea",
+  "active": "b96a0ff813c7453d",
   "lastOpenFiles": [
-    "Image Analysis Notes/Class notes/16b. Corner and Blob Organised.md",
-    "Image Analysis Notes/Class notes/16. Feature Extraction Corners and Blobs (Class Topics).md",
     "Image Analysis Notes/Class notes/15. Segmentation and Grouping (Class Topics).md",
-    "Image Analysis Notes/Class notes/14c. Segmentation comparision.md",
-    "Image Analysis Notes/Class notes/14b. Segmentation Organised.md",
+    "Image Analysis Notes/Class notes/17. Context (Class topics).md",
+    "Image Analysis Notes/Class notes/16b. Corner and Blob Organised.md",
+    "Image Analysis Notes/attachments/lec07_corner_blob.pdf",
+    "Image Analysis Notes/Class notes/1. Non linear graph.md",
     "Image Analysis Notes/attachments/Wavelets and Images.pdf",
+    "Image Analysis Notes/attachments/lec06_edge.pdf",
+    "Image Analysis Notes/attachments/lec03_light.pdf",
+    "Image Analysis Notes/attachments/lec05_filter.pdf",
+    "Image Analysis Notes/attachments/Advance Edge Detection(Lec7) [Compatibility Mode].pdf",
+    "Image Analysis Notes/attachments/lec02_camera.pdf",
+    "Image Analysis Notes/attachments/lec04_color.pdf",
     "Image Analysis Notes/attachments/lec01_intro.pdf",
     "Image Analysis Notes/attachments/Intro_Sig_Image Processing [Compatibility Mode].pdf",
-    "Image Analysis Notes/attachments/lec02_camera.pdf",
-    "Image Analysis Notes/Class notes/5. Image as 2D function.md",
+    "Image Analysis Notes/Class notes/16. Feature Extraction Corners and Blobs (Class Topics).md",
     "Image Analysis Notes/Class notes/14. Image Segmentation and Recognition (Class Topics).md",
+    "Image Analysis Notes/Class notes/14b. Segmentation Organised.md",
+    "Image Analysis Notes/Class notes/13. Camera.md",
+    "Image Analysis Notes/Unit 0/6. Operators and Convolutions.md",
+    "Image Analysis Notes/Class notes/5. Image as 2D function.md",
+    "Image Analysis Notes/Unit 2/8. Amplitude thresholding or Window slicing.md",
+    "Image Analysis Notes/Unit 2/9. Component labeling.md",
+    "Image Analysis Notes/Unit 2/10. Boundary based approaches.md",
+    "Image Analysis Notes/Class notes/14c. Segmentation comparision.md",
     "Rough.md",
     "Image Analysis Notes/Unit 2/1. Detection of discontinuities.md",
     "Image Analysis Notes/Class notes/11. Edges.md",
     "Image Analysis Notes/Class notes/10. Filter.md",
     "Image Analysis Notes/Class notes/9. Color Schemas.md",
-    "Image Analysis Notes/Class notes/1. Non linear graph.md",
     "Image Analysis Notes/Index/_Unit -2.md",
     "Image Analysis Notes/Index/_Class notes.md",
     "Image Analysis Notes/Unit 2/13. Texture segmentation.md",
     "Image Analysis Notes/Unit 2/12. Template Matching.md",
     "Image Analysis Notes/Unit 2/11. Region-based approaches and Clustering.md",
-    "Image Analysis Notes/Unit 2/10. Boundary based approaches.md",
-    "Image Analysis Notes/Unit 2/9. Component labeling.md",
-    "Image Analysis Notes/Unit 2/8. Amplitude thresholding or Window slicing.md",
     "Image Analysis Notes/Unit 2/7. Performance of edge detector operators.md",
-    "Image Analysis Notes/Unit 2/6. Stochastic gradients.md",
-    "Image Analysis Notes/Unit 2/5. Zero crossing.md",
-    "Image Analysis Notes/Unit 2/4. Laplace Operators.md",
-    "Image Analysis Notes/Unit 2/3. Compass Operators.md",
-    "Image Analysis Notes/attachments/lec07_corner_blob.pdf",
-    "Unit0 1",
-    "Unit0",
-    "Instructions.txt"
+    "Image Analysis Notes/Unit 2/6. Stochastic gradients.md"
   ]
 }
