@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Analysis Notes/Class notes/3. Frequency.md",
+                "file": "Image Analysis Notes/Class notes/4. Fourier Transform.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Frequency"
+              "title": "4. Fourier Transform"
             }
           }
         ]
@@ -196,6 +196,7 @@
   },
   "active": "10ed31b23c29dae3",
   "lastOpenFiles": [
+    "Image Analysis Notes/Class notes/3. Frequency.md",
     "Image Analysis Notes/Class notes/2. Co-ordinate system.md",
     "Image Analysis Notes/Class notes/1. Non linear graph.md",
     "Image Analysis Notes/Unit 1/6. Connected Components.md",
@@ -230,7 +231,6 @@
     "Image Analysis Notes/Unit 2/1. Detection of discontinuities.md",
     "Image Analysis Notes/Class notes/11. Edges.md",
     "Image Analysis Notes/Class notes/10. Filter.md",
-    "Image Analysis Notes/Class notes/9. Color Schemas.md",
-    "Image Analysis Notes/Index/_Unit -2.md"
+    "Image Analysis Notes/Class notes/9. Color Schemas.md"
   ]
 }
