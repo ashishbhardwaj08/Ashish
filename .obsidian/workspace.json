@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Analysis Notes/Unit 1/6. Connected Components.md",
+                "file": "Image Analysis Notes/Class notes/2. Co-ordinate system.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. Connected Components"
+              "title": "2. Co-ordinate system"
             }
           }
         ]
@@ -196,6 +196,8 @@
   },
   "active": "10ed31b23c29dae3",
   "lastOpenFiles": [
+    "Image Analysis Notes/Class notes/1. Non linear graph.md",
+    "Image Analysis Notes/Unit 1/6. Connected Components.md",
     "Image Analysis Notes/Unit 1/1. Dilation & Erosion.md",
     "Image Analysis Notes/Class notes/17. Context (Organised).md",
     "Image Analysis Notes/Class notes/17. Context (Class topics).md",
@@ -208,7 +210,6 @@
     "Rough.md",
     "Image Analysis Notes/Class notes/15. Segmentation and Grouping (Class Topics).md",
     "Image Analysis Notes/attachments/lec07_corner_blob.pdf",
-    "Image Analysis Notes/Class notes/1. Non linear graph.md",
     "Image Analysis Notes/attachments/Wavelets and Images.pdf",
     "Image Analysis Notes/attachments/lec06_edge.pdf",
     "Image Analysis Notes/attachments/lec03_light.pdf",
@@ -230,7 +231,6 @@
     "Image Analysis Notes/Class notes/10. Filter.md",
     "Image Analysis Notes/Class notes/9. Color Schemas.md",
     "Image Analysis Notes/Index/_Unit -2.md",
-    "Image Analysis Notes/Index/_Class notes.md",
-    "Image Analysis Notes/Unit 2/13. Texture segmentation.md"
+    "Image Analysis Notes/Index/_Class notes.md"
   ]
 }
