@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Analysis Notes/Class notes/19. Camera Calibration (Class Topics).md",
+                "file": "Image Analysis Notes/Class notes/20. Epipolar + Struct from motion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "19. Camera Calibration (Class Topics)"
+              "title": "20. Epipolar + Struct from motion"
             }
           }
         ]
@@ -194,10 +194,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "10ed31b23c29dae3",
+  "active": "1da84ebc218758df",
   "lastOpenFiles": [
-    "Image Analysis Notes/Class notes/18. Camera Calibration (Class Topics).md",
     "Image Analysis Notes/Class notes/19. Camera Calibration (Class Topics).md",
+    "Image Analysis Notes/Class notes/20. Epipolar + Struct from motion.md",
+    "Image Analysis Notes/Class notes/18. Camera Calibration (Class Topics).md",
     "Image Analysis Notes/Class notes/17. Context (Organised).md",
     "Image Analysis Notes/attachments/Wavelets and Images.pdf",
     "Image Analysis Notes/attachments/lec01_intro.pdf",
@@ -230,7 +231,6 @@
     "Image Analysis Notes/attachments/lec06_edge.pdf",
     "Image Analysis Notes/attachments/lec03_light.pdf",
     "Image Analysis Notes/attachments/Advance Edge Detection(Lec7) [Compatibility Mode].pdf",
-    "Image Analysis Notes/Class notes/13. Camera.md",
-    "Image Analysis Notes/Unit 0/6. Operators and Convolutions.md"
+    "Image Analysis Notes/Class notes/13. Camera.md"
   ]
 }
